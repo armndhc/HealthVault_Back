@@ -1,0 +1,553 @@
+2024-12-01 06:23:12 PM: CRITICAL [medicalappointment_model.py:17] MongoDB environment variables are required
+2024-12-01 06:24:56 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 06:25:32 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 06:25:32 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-01 06:25:32 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-01 06:25:32 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 06:25:33 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 06:25:33 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 06:25:33 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 06:36:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 18:36:39] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 06:36:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 18:36:39] "[31m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 400 -
+2024-12-01 06:41:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 18:41:56] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 06:43:27 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/app.py', reloading
+2024-12-01 07:31:28 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 07:31:28 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-01 07:31:28 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-01 07:31:28 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 07:31:29 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 07:31:29 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 07:31:29 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 07:32:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:32:08] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:32:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:32:30] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:32:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:32:30] "[31m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 400 -
+2024-12-01 07:34:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:34:26] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:35:14 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:35:14] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:35:14 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:35:14] "[31m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 400 -
+2024-12-01 07:36:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:36:39] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:36:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:36:39] "[31m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 400 -
+2024-12-01 07:38:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:38:30] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:38:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:38:30] "[31m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 400 -
+2024-12-01 07:38:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:38:37] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:38:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:38:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-01 07:38:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:38:47] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:39:15 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:39:15] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:39:15 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:39:15] "[31m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 400 -
+2024-12-01 07:39:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:39:29] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:39:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:39:47] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:39:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:39:47] "[31m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 400 -
+2024-12-01 07:40:09 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:40:09] "OPTIONS /api/v1/medicalappointments/3 HTTP/1.1" 200 -
+2024-12-01 07:40:09 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:40:09] "[31m[1mPUT /api/v1/medicalappointments/3 HTTP/1.1[0m" 400 -
+2024-12-01 07:40:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:40:58] "OPTIONS /api/v1/medicalappointments/3 HTTP/1.1" 200 -
+2024-12-01 07:40:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:40:58] "[31m[1mPUT /api/v1/medicalappointments/3 HTTP/1.1[0m" 400 -
+2024-12-01 07:41:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:41:12] "OPTIONS /api/v1/medicalappointments/3 HTTP/1.1" 200 -
+2024-12-01 07:41:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:41:12] "[31m[1mPUT /api/v1/medicalappointments/3 HTTP/1.1[0m" 400 -
+2024-12-01 07:41:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:41:13] "[31m[1mPUT /api/v1/medicalappointments/3 HTTP/1.1[0m" 400 -
+2024-12-01 07:42:20 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:42:20] "OPTIONS /api/v1/medicalappointments/3 HTTP/1.1" 200 -
+2024-12-01 07:42:20 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:42:20] "[31m[1mPUT /api/v1/medicalappointments/3 HTTP/1.1[0m" 400 -
+2024-12-01 07:46:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:46:01] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:47:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:47:45] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:47:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:47:56] "OPTIONS /api/v1/medicalappointments/3 HTTP/1.1" 200 -
+2024-12-01 07:47:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:47:56] "PUT /api/v1/medicalappointments/3 HTTP/1.1" 200 -
+2024-12-01 07:48:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:48:28] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:48:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:48:28] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-01 07:50:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:50:00] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:50:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:50:16] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 07:50:17 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 19:50:17] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-01 08:51:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:51:03] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 08:56:33 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:56:33] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 08:57:20 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:57:20] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 08:57:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:57:54] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 09:01:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:01:05] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 09:03:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:03:04] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 09:04:15 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:04:15] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 09:04:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:04:30] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 09:10:33 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:10:33] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 09:13:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:13:05] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 09:27:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:27:51] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 09:38:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:38:16] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 09:58:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:58:02] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 10:01:18 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 22:01:18] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 10:01:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 22:01:42] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 10:31:32 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-01 10:31:33 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 10:31:35 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 10:31:35 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 10:31:35 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 10:31:41 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-01 10:31:42 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 10:31:43 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 10:31:43 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 10:31:43 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 10:32:54 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 10:32:55 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:14:38 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:14:39 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-01 11:14:39 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-01 11:14:39 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:14:40 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:14:40 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:14:40 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:14:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 23:14:44] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 11:18:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 23:18:40] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 11:20:07 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 11:20:08 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:20:09 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:20:09 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:20:09 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:38:48 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 11:38:49 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:38:50 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:38:50 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:38:50 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:39:31 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 11:39:31 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:39:32 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:39:32 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:39:32 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:39:53 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 11:39:54 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:39:55 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:39:55 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:39:55 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:40:06 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 11:40:06 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:40:07 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:40:07 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:40:07 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:40:31 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 11:40:31 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:40:32 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:40:32 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:40:32 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:41:06 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 11:41:06 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:41:07 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:41:07 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:41:07 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:41:12 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 11:41:12 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:41:13 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:41:13 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:41:13 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:41:25 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-01 11:41:25 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:41:26 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:41:26 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:41:26 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:41:51 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/schemas/medicalappointment_schema.py', reloading
+2024-12-01 11:41:51 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:41:52 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:41:52 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:41:52 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:41:55 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/schemas/medicalappointment_schema.py', reloading
+2024-12-01 11:41:55 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 11:41:56 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-01 11:41:57 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 11:41:57 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-01 11:50:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 23:50:04] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 11:58:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 23:58:25] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-01 11:59:18 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 23:59:18] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:02:04 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:02:04] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:06:52 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:06:52] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:07:33 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:07:33] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:07:34 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:07:34] "[31m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 400 -
+2024-12-02 12:07:47 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:07:47] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:09:32 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:09:32] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:09:32 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:09:32] "[31m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 400 -
+2024-12-02 12:13:13 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:13:13] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:18:07 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 12:18:08 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:18:09 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:18:09 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:18:09 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 12:18:14 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 12:18:15 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:18:17 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:18:17 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:18:17 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 12:19:14 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 12:19:15 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:19:16 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:19:16 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:19:16 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 12:24:22 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 12:24:23 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:24:24 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:24:24 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:24:24 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 12:25:44 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 12:25:45 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:25:46 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:25:46 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:25:46 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 12:26:10 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 12:26:11 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:26:12 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:26:12 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:26:12 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 12:27:56 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 12:27:57 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:27:58 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:27:58 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:27:58 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 12:28:00 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 12:28:01 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:28:02 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:28:02 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:28:02 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 12:29:30 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 12:29:31 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:53:25 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:53:25 AM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 12:53:25 AM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 12:53:25 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:53:27 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 12:53:27 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:53:27 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 12:53:31 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:53:31] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:53:31 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:53:31] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 12:59:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:59:01] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:59:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:59:01] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:04:10 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 01:04:11 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:04:12 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:04:12 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 01:04:12 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 01:04:13 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/app.py', reloading
+2024-12-02 01:04:14 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:04:15 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:04:15 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 01:04:15 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:09:51 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 09:09:52 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:21:17 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:21:17 AM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 09:21:17 AM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 09:21:17 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:21:18 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:21:19 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:21:19 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:21:28 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:21:28] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 09:21:28 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:21:28] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 09:21:28 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:21:28] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:22:56 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 09:22:57 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:22:58 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:22:58 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:22:58 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:23:31 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/schemas/medicalappointment_schema.py', reloading
+2024-12-02 09:23:32 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:23:33 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:23:33 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:23:33 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:23:50 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/schemas/medicalappointment_schema.py', reloading
+2024-12-02 09:23:51 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:23:52 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:23:52 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:23:52 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:24:02 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/schemas/medicalappointment_schema.py', reloading
+2024-12-02 09:24:03 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:24:05 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:24:05 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:24:05 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:25:30 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:25:30] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 09:25:30 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:25:30] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 09:25:31 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:25:31] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:30:25 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:30:25] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:30:25 AM: ERROR [medicalappointment_routes.py:124] Error adding new Medical Appointment to the database: 'MedicalAppointmentSchema' object has no attribute 'validate_people'
+2024-12-02 09:30:25 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:30:25] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 500 -
+2024-12-02 09:30:33 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:30:33] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 09:30:33 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:30:33] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 09:30:33 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:30:33] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:30:52 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:30:52] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:30:52 AM: ERROR [medicalappointment_routes.py:124] Error adding new Medical Appointment to the database: 'MedicalAppointmentSchema' object has no attribute 'validate_people'
+2024-12-02 09:30:52 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:30:52] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 500 -
+2024-12-02 09:34:38 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:34:38 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:34:40 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:34:40 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:34:40 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:36:20 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:36:20] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:36:20 AM: ERROR [medicalappointment_routes.py:119] Error adding new Medical Appointment to the database: 'MedicalAppointmentSchema' object has no attribute 'validate_email'
+2024-12-02 09:36:20 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:36:20] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 500 -
+2024-12-02 09:36:56 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:36:57 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:36:58 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:36:58 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:36:58 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:37:18 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:37:18 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:37:20 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:37:20 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:37:20 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:37:51 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:37:51 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:37:52 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:37:52 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:37:52 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:38:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:38:01] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:38:01 AM: ERROR [medicalappointment_routes.py:117] Error adding new Medical Appointment to the database: 'MedicalAppointmentSchema' object has no attribute 'validate_special'
+2024-12-02 09:38:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:38:01] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 500 -
+2024-12-02 09:39:22 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:39:23 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:39:24 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:39:24 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:39:24 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:40:51 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:40:52 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:40:53 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:40:53 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:40:53 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:40:54 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:40:54 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:40:55 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:40:56 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:40:56 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:41:36 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:41:36 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:41:37 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:41:37 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:41:37 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:41:56 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:41:57 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:41:58 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:41:58 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:41:58 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:42:22 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:42:22 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:42:23 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:42:23 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:42:23 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:42:41 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:42:41] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:42:41 AM: ERROR [medicalappointment_routes.py:113] Error adding new Medical Appointment to the database: name 'people' is not defined
+2024-12-02 09:42:41 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:42:41] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 500 -
+2024-12-02 09:42:57 AM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 09:42:58 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 09:42:59 AM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 09:42:59 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 09:42:59 AM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 09:43:07 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:43:07] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:43:07 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:43:07] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 09:43:59 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:43:59] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:44:12 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:44:12] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:45:19 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:45:19] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 09:45:19 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:45:19] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 09:45:19 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:45:19] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:46:00 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:46:00] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:46:00 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:46:00] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 09:46:44 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:46:44] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 09:46:44 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:46:44] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 09:47:08 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:47:08] "OPTIONS /api/v1/medicalappointments/2 HTTP/1.1" 200 -
+2024-12-02 09:47:08 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:47:08] "DELETE /api/v1/medicalappointments/2 HTTP/1.1" 200 -
+2024-12-02 09:47:09 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:47:09] "OPTIONS /api/v1/medicalappointments/3 HTTP/1.1" 200 -
+2024-12-02 09:47:09 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 09:47:09] "DELETE /api/v1/medicalappointments/3 HTTP/1.1" 200 -
+2024-12-02 12:32:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:32:08] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 12:32:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:32:08] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:32:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:32:08] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 12:33:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:33:50] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:33:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:33:50] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 12:35:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:35:06] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 12:35:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:35:06] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 12:35:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:35:06] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:35:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:35:23] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:35:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:35:23] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 12:35:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:35:36] "OPTIONS /api/v1/medicalappointments/6 HTTP/1.1" 200 -
+2024-12-02 12:35:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:35:36] "DELETE /api/v1/medicalappointments/6 HTTP/1.1" 200 -
+2024-12-02 12:35:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:35:37] "OPTIONS /api/v1/medicalappointments/5 HTTP/1.1" 200 -
+2024-12-02 12:35:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:35:37] "DELETE /api/v1/medicalappointments/5 HTTP/1.1" 200 -
+2024-12-02 12:36:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:36:08] "OPTIONS /api/v1/medicalappointments/1 HTTP/1.1" 200 -
+2024-12-02 12:36:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:36:08] "DELETE /api/v1/medicalappointments/1 HTTP/1.1" 200 -
+2024-12-02 12:43:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:43:49] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 12:43:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:43:49] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 12:43:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:43:49] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:44:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:44:23] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 12:44:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:44:23] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 01:08:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:08:53] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:08:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:08:53] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:08:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:08:53] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:08:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:08:59] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:08:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:08:59] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:08:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:08:59] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:12:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:12:25] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:12:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:12:25] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:12:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:12:25] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:12:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:12:51] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:12:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:12:51] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:12:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:12:51] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:13:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:13:08] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:13:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:13:08] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:13:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:13:08] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:14:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:14:51] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:14:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:14:51] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:14:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:14:51] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:17:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:17:28] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:17:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:17:28] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:17:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:17:28] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:20:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:20:00] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:20:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:20:00] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:20:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:20:16] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:20:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:20:16] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 01:20:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:20:34] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:20:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:20:34] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:22:14 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:22:14] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:22:14 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:22:14] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 01:22:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:22:29] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:22:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:22:29] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 01:31:23 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:31:23 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 01:31:23 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 01:31:23 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:31:25 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:31:25 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 01:31:25 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 01:31:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:34] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:31:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:34] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:31:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:34] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:31:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:47] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:31:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:47] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 01:31:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:51] "OPTIONS /api/v1/medicalappointments/8 HTTP/1.1" 200 -
+2024-12-02 01:31:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:51] "DELETE /api/v1/medicalappointments/8 HTTP/1.1" 200 -
+2024-12-02 01:31:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:51] "OPTIONS /api/v1/medicalappointments/7 HTTP/1.1" 200 -
+2024-12-02 01:31:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:51] "DELETE /api/v1/medicalappointments/7 HTTP/1.1" 200 -
+2024-12-02 01:31:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:53] "OPTIONS /api/v1/medicalappointments/6 HTTP/1.1" 200 -
+2024-12-02 01:31:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:53] "DELETE /api/v1/medicalappointments/6 HTTP/1.1" 200 -
+2024-12-02 01:31:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:53] "OPTIONS /api/v1/medicalappointments/5 HTTP/1.1" 200 -
+2024-12-02 01:31:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:53] "DELETE /api/v1/medicalappointments/5 HTTP/1.1" 200 -
+2024-12-02 01:31:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:54] "OPTIONS /api/v1/medicalappointments/4 HTTP/1.1" 200 -
+2024-12-02 01:31:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:31:54] "DELETE /api/v1/medicalappointments/4 HTTP/1.1" 200 -
+2024-12-02 01:40:15 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 01:40:16 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:54:38 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:54:38 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 01:54:38 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 01:54:38 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:54:39 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:54:39 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 01:54:39 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 01:54:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:54:47] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:54:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:54:47] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:54:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:54:47] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:54:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:54:47] "[35m[1mGET /api/v1/medicalappointments/recipes HTTP/1.1[0m" 500 -
+2024-12-02 01:55:50 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 01:55:51 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:55:52 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:55:52 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 01:55:52 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 01:56:56 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 01:56:57 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:56:58 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:56:58 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 01:56:58 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 01:57:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:57:13] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:57:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:57:13] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 01:57:21 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:57:21] "OPTIONS /api/v1/medicalappointments/10 HTTP/1.1" 200 -
+2024-12-02 01:57:21 PM: ERROR [medicalappointment_routes.py:202] Error updating the Medical Appointment in the database: name 'statuss' is not defined
+2024-12-02 01:57:21 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:57:21] "PUT /api/v1/medicalappointments/10 HTTP/1.1" 200 -
+2024-12-02 01:57:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:57:30] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 01:57:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:57:30] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:57:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:57:30] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 01:57:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:57:30] "[35m[1mGET /api/v1/medicalappointments/recipes HTTP/1.1[0m" 500 -
+2024-12-02 01:58:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:58:23] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 01:58:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:58:23] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 01:59:00 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 01:59:00 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:59:02 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:59:02 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 01:59:02 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 01:59:34 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 01:59:34 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:59:35 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 01:59:35 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 01:59:35 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:00:14 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:00:14] "OPTIONS /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 02:00:14 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:00:14] "[35m[1mPOST /api/v1/medicalappointments HTTP/1.1[0m" 201 -
+2024-12-02 02:04:39 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 02:04:39 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:04:40 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:04:40 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:04:40 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:05:38 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/services/medicalappointment_service.py', reloading
+2024-12-02 02:05:39 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:05:40 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:05:40 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:05:40 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:05:44 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 02:05:44 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:05:45 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:08:00 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:08:00 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 02:08:00 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 02:08:00 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:08:01 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:08:01 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:08:01 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:08:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:08:03] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 02:08:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:08:03] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 02:08:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:08:03] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 02:08:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:08:05] "OPTIONS /api/v1/medicalappointments/9 HTTP/1.1" 200 -
+2024-12-02 02:08:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:08:05] "DELETE /api/v1/medicalappointments/9 HTTP/1.1" 200 -
+2024-12-02 02:08:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:08:07] "OPTIONS /api/v1/medicalappointments/10 HTTP/1.1" 200 -
+2024-12-02 02:08:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:08:07] "DELETE /api/v1/medicalappointments/10 HTTP/1.1" 200 -
+2024-12-02 02:09:25 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/app.py', reloading
+2024-12-02 02:09:25 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:09:26 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:09:26 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:09:26 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:11:08 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 02:11:09 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:11:10 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:11:10 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:11:10 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:14:43 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 02:14:44 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:14:45 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:14:45 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:14:45 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:16:49 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 02:16:49 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:16:50 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:16:50 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:16:50 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:17:01 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 02:17:02 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:17:03 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:17:03 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:17:03 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:17:24 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 02:17:24 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:17:25 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:17:25 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:17:25 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:17:37 PM: INFO [_internal.py:97]  * Detected change in '/home/alecarrillo/HealthVault_Back/routes/medicalappointment_routes.py', reloading
+2024-12-02 02:17:37 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:17:39 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:17:39 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:17:39 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:21:33 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:21:33 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 02:21:33 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 02:21:33 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:21:34 PM: INFO [medicalappointment_model.py:32] Connected to MongoDB database successfylly
+2024-12-02 02:21:34 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:21:34 PM: INFO [_internal.py:97]  * Debugger PIN: 622-990-990
+2024-12-02 02:21:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:39] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 02:21:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:39] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 02:21:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:39] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 02:21:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:55] "OPTIONS /api/v1/medicalappointments/11 HTTP/1.1" 200 -
+2024-12-02 02:21:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:55] "PUT /api/v1/medicalappointments/11 HTTP/1.1" 200 -
+2024-12-02 02:23:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:03] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -
+2024-12-02 02:23:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:03] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 02:23:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:03] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 02:25:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:25:02] "GET /api/v1/medicalappointments/patients HTTP/1.1" 200 -
+2024-12-02 02:25:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:25:02] "GET /api/v1/medicalappointments HTTP/1.1" 200 -
+2024-12-02 02:25:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:25:02] "GET /api/v1/medicalappointments/doctors HTTP/1.1" 200 -

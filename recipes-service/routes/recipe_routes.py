@@ -93,6 +93,7 @@ class RecipeRoutes(Blueprint):
             bloodPressure = request_data.get('bloodPressure')
             medication = request_data.get('medication')
             quantity = request_data.get('quantity')
+            appointment_id = request_data.get('appointment_id')
 
             try:
                 self.recipe_schema.validate_observations(observations)
@@ -112,8 +113,8 @@ class RecipeRoutes(Blueprint):
                 'temperature': temperature,
                 'bloodPressure': bloodPressure,
                 'medication': medication,
-                'quantity': quantity
-
+                'quantity': quantity,
+                'appointment_id': appointment_id
             }
 
             created_recipe = self.recipe_service.add_recipe(new_recipe)

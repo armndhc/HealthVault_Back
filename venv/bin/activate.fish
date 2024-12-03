@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/armando/ProyFinDist/HealthVault-Back/venv"
+set -gx VIRTUAL_ENV "/home/isra12w/healthvalue/HealthVault_Back/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

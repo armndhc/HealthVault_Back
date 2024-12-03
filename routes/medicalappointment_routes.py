@@ -33,8 +33,10 @@ class MedicalAppointmentRoute(Blueprint):
                             'date': {'type': 'string'},
                             'patient': {'type': 'string'},
                             'doctor': {'type': 'string'},
+                            'doctor_id': {'type': 'integer'},
+                            'patient_id': {'type': 'integer'},
                             'reason': {'type': 'string'},
-                            'status': {'type': 'boolean'},
+                            'status': {'type': 'string'},
                         }
                     }
                 }
@@ -59,8 +61,10 @@ class MedicalAppointmentRoute(Blueprint):
                             'date': {'type': 'string'},
                             'patient': {'type': 'string'},
                             'doctor': {'type': 'string'},
+                            'doctor_id': {'type': 'integer'},
+                            'patient_id': {'type': 'integer'},
                             'reason': {'type': 'string'},
-                            'status': {'type': 'boolean'},
+                            'status': {'type': 'string'},
                     },
                     'required': ['date', 'patient', 'doctor', 'reason', 'status']
                 }
@@ -89,6 +93,8 @@ class MedicalAppointmentRoute(Blueprint):
             date = request_data.get('date')
             patient = request_data.get('patient')
             doctor = request_data.get('doctor')
+            patient_id = request_data.get('patient_id')
+            doctor_id = request_data.get('doctor_id')
             reason = request_data.get('reason', '')
             status = request_data.get('status')
 
@@ -105,6 +111,8 @@ class MedicalAppointmentRoute(Blueprint):
                 'reason': reason,
                 'status': status,
                 'recipe_id': None,
+                'doctor_id': doctor_id,
+                'patient_id': patient_id
             }
 
             created_medicalappointment = self.medicalappointment_service.add_medicalappointment(new_medicalappointment)
@@ -133,8 +141,10 @@ class MedicalAppointmentRoute(Blueprint):
                             'date': {'type': 'string'},
                             'patient': {'type': 'string'},
                             'doctor': {'type': 'string'},
+                            'doctor_id': {'type': 'integer'},
+                            'patient_id': {'type': 'integer'},
                             'reason': {'type': 'string'},
-                            'status': {'type': 'boolean'},
+                            'status': {'type': 'string'},
                     },
                     'required': ['date', 'patient', 'doctor', 'reason', 'status']
                 }
@@ -149,8 +159,10 @@ class MedicalAppointmentRoute(Blueprint):
                             'date': {'type': 'string'},
                             'patient': {'type': 'string'},
                             'doctor': {'type': 'string'},
+                            'doctor_id': {'type': 'integer'},
+                            'patient_id': {'type': 'integer'},
                             'reason': {'type': 'string'},
-                            'status': {'type': 'boolean'},
+                            'status': {'type': 'string'},
                             'recipe_id': {'type': 'string'},
                     }
                 }
@@ -177,7 +189,9 @@ class MedicalAppointmentRoute(Blueprint):
             date = request_data.get('date')
             patient = request_data.get('patient')
             doctor = request_data.get('doctor')
-            reason = request_data.get('reason', '')
+            reason = request_data.get('reason')
+            doctor_id = request_data.get('doctor_id')
+            patient_id = request_data.get('patient_id')
             status = request_data.get('status')    
 
             try:
@@ -191,6 +205,8 @@ class MedicalAppointmentRoute(Blueprint):
                 'date': date,
                 'patient': patient,
                 'doctor': doctor,
+                'patient_id': patient_id,
+                'doctor_id': doctor_id,
                 'reason': reason,
                 'status': status
             }

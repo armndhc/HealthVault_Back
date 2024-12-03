@@ -1,4 +1,4 @@
-import spacy
+""" import spacy
 from dateutil.parser import parse
 import re
 
@@ -94,3 +94,4 @@ class NLPService:
             return parse(value).isoformat()
         except (ValueError, TypeError):
             return value.strip()
+ """

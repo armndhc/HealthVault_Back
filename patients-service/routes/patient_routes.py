@@ -16,7 +16,7 @@ class PatientRoutes(Blueprint):
         self.route('/api/v1/patient', methods=['POST'])(self.add_patient)
         self.route('/api/v1/patient/<int:patient_id>', methods=['PUT'])(self.update_patient)
         self.route('/api/v1/patient/<int:patient_id>', methods=['DELETE'])(self.delete_patient)
-        self.route('/api/v1/patient/query', methods=['POST'])(self.query_patient_nlp)
+        # self.route('/api/v1/patient/query', methods=['POST'])(self.query_patient_nlp)
         self.route('/api/v1/medicalappointments/<int:patient_id>', methods=['GET'])(self.get_completed_appointments)
         self.route('/api/v1/patient/<int:patient_id>', methods=['GET'])(self.get_patient_by_id)
         self.route('/healthcheck', methods=['GET', 'OPTIONS'])(self.healthcheck)

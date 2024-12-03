@@ -4,7 +4,7 @@ from models.patient_model import PatientModel
 from services.patient_service import PatientService
 from schemas.patient_schema import PatientSchema
 from routes.patient_routes import PatientRoutes
-from services.nlp_service import NLPService 
+#from services.nlp_service import NLPService 
 from flasgger import Swagger
 
 app = Flask(__name__)
@@ -12,8 +12,8 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 swagger = Swagger(app)
 db_conn_patient= PatientModel()
 db_conn_patient.connect_to_database()
-nlp_service = NLPService()
-patient_service = PatientService(db_conn_patient,nlp_service)
+#nlp_service = NLPService()
+patient_service = PatientService(db_conn_patient)#,nlp_service)
 patient_schema = PatientSchema()
 patient_routes = PatientRoutes(patient_service, patient_schema)
 app.register_blueprint(patient_routes)

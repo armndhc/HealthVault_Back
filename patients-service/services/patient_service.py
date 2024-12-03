@@ -2,7 +2,7 @@ from flask import jsonify
 from logger.logger_base import Logger
 
 class PatientService:
-    def __init__(self, db_conn,nlp_service):
+    def __init__(self, db_conn,nlp_service = None):
         self.logger = Logger()
         self.db_conn = db_conn
         self.nlp_service = nlp_service

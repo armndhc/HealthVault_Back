@@ -1,0 +1,119 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - /opt/mongodb_data/healthvalue:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+
+  healthvalue_front:
+    build:
+      context: ../healthvault
+      dockerfile: Dockerfile
+    image: healthvault:v1.0.0
+    container_name: healthvault
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - doctors_api
+      - medications_api
+      - medicalappointments_api
+      - patients_api
+      - payments_api
+      - recipes_api
+        
+  doctors_api:
+    build: ./doctors-service
+    image: doctors_api:v1.0.0
+    container_name: doctors_api
+    restart: always
+    ports:
+      - "8001:8001"
+    environment:
+      MONGODB_USER: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGODB_PASS: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGODB_HOST: mongodb
+      DOCKER_CONTENT_TRUST: ${DOCKER_CONTENT_TRUST}
+    depends_on:
+      - mongodb
+
+  medications_api:
+    build: ./medications-service
+    image: medications_api:v1.0.0
+    container_name: medications_api
+    restart: always
+    ports:
+      - "8002:8002"
+    environment:
+      MONGODB_USER: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGODB_PASS: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGODB_HOST: mongodb
+      DOCKER_CONTENT_TRUST: ${DOCKER_CONTENT_TRUST}
+    depends_on:
+      - mongodb
+
+  medicalappointments_api:
+    build: ./medical-appointments-service
+    image: medicalappointments_api:v1.0.0
+    container_name: medicalappointments_api
+    restart: always
+    ports:
+      - "8003:8003"
+    environment:
+      MONGODB_USER: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGODB_PASS: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGODB_HOST: mongodb
+      DOCKER_CONTENT_TRUST: ${DOCKER_CONTENT_TRUST}
+    depends_on:
+      - mongodb
+
+  patients_api:
+    build: ./patients-service
+    image: patients_api:v1.0.0
+    container_name: patients_api
+    restart: always
+    ports:
+      - "8004:8004"
+    environment:
+      MONGODB_USER: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGODB_PASS: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGODB_HOST: mongodb
+      DOCKER_CONTENT_TRUST: ${DOCKER_CONTENT_TRUST}
+    depends_on:
+      - mongodb
+
+  payments_api:
+    build: ./payments-service
+    image: payments_api:v1.0.0
+    container_name: payments_api
+    restart: always
+    ports:
+      - "8005:8005"
+    environment:
+      MONGODB_USER: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGODB_PASS: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGODB_HOST: mongodb
+      DOCKER_CONTENT_TRUST: ${DOCKER_CONTENT_TRUST}
+    depends_on:
+      - mongodb
+
+  recipes_api:
+    build: ./recipes-service
+    image: recipes_api:v1.0.0
+    container_name: recipes_api
+    restart: always
+    ports:
+      - "8006:8006"
+    environment:
+      MONGODB_USER: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGODB_PASS: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGODB_HOST: mongodb
+      DOCKER_CONTENT_TRUST: ${DOCKER_CONTENT_TRUST}
+    depends_on:
+      - mongodb

@@ -1,6 +1,11 @@
 from flask import Flask
 from flask_cors import CORS
 
+from models.medication_model import MedicationModel
+from services.medication_service import MedicationService
+from schemas.medication_schema import MedicationSchema
+from routes.medication_routes import MedicationRoutes
+
 from models.medicalappointment_model import MedicalAppointmentsModel
 from services.medicalappointment_service import MedicalAppointmentService
 from schemas.medicalappointment_schema import MedicalAppointmentSchema
@@ -21,6 +26,16 @@ from models.doctor_model import DoctorModel
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 swagger = Swagger(app)
+
+
+# Medication
+db_conn_medication = MedicationModel()
+db_conn_medication.connect_to_database()
+medication_service = MedicationService(db_conn_medication)
+medication_schema = MedicationSchema()
+medication_routes = MedicationRoutes(medication_service, medication_schema)
+app.register_blueprint(medication_routes)
+
 
 # Medical Appointment
 db_conn_medicalappointment = MedicalAppointmentsModel()
@@ -59,8 +74,7 @@ if __name__ == '__main__':
     try:
         app.run(debug=True)
     finally:
+        db_conn_medication.close_connection()
         db_conn_medicalappointment.close_connection()
-        
         db_conn_patient.close_connection()
-        
         db_conn_doctor.close_connection()

@@ -74,7 +74,7 @@ class MedicalAppointmentService:
             patients_list=[]
             for p in patients:
                 patients_list.append({
-                    "name": p["name"] + " " + p["lastname"],
+                    "name": p["name"] + " " + p["lastName"],
                     "_id": p["_id"]
                 })
             return patients_list

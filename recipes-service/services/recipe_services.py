@@ -27,7 +27,7 @@ class RecipeService:
     
     def get_appointment(self,appointment_id):
         try:
-            appointment = self.db_conn.db.appointment.find_one({"_id": appointment_id})
+            appointment = self.db_conn.db.medicalappointments.find_one({"_id": appointment_id})
             self.logger.info(appointment)
             if appointment:
                 result = {

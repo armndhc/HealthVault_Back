@@ -20,6 +20,10 @@ class RecipeService:
             next_id = (last_recipe['_id'] + 1 if last_recipe else 1)
             new_recipe["_id"] = next_id
             self.db_conn.db.recipe.insert_one(new_recipe)
+            self.db_conn.db.medicalappointments.update_one(
+                {"_id": new_recipe["appointment_id"]},  
+                {"$set": {"status": "Completed"}}       
+            )
             return new_recipe
         except Exception as e:
             self.logger.error(f'Error creating the new recipe: {e}')

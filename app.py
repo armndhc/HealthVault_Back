@@ -1,11 +1,14 @@
 from flask import Flask
 from flask_cors import CORS
+from models.recipe_model import RecipeModel
+from services.recipe_services import RecipeService
+from schemas.recipe_schemas import RecipeSchema
+from routes.recipe_routes import RecipeRoutes
 
 from models.payment_model import PaymentModel
 from services.payment_services import PaymentService
 from schemas.payment_schemas import PaymentSchema
 from routes.payment_route import PaymentRoutes
-from flasgger import Swagger
 
 from models.medication_model import MedicationModel
 from services.medication_service import MedicationService
@@ -21,17 +24,28 @@ from models.patient_model import PatientModel
 from services.patient_service import PatientService
 from schemas.patient_schema import PatientSchema
 from routes.patient_routes import PatientRoutes
-from flasgger import Swagger
 from services.nlp_service import NLPService 
 
 from routes.doctor_routes import DoctorRoutes
 from services.doctor_service import DoctorService
 from schemas.doctor_schema import DoctorSchema
 from models.doctor_model import DoctorModel
+from flasgger import Swagger
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 swagger = Swagger(app)
+
+# Recipe
+app = Flask(__name__)
+CORS(app)
+swagger = Swagger(app)
+db_conn_recipe = RecipeModel()
+db_conn_recipe.connect_to_database()
+recipe_service = RecipeService(db_conn)
+recipe_schema = RecipeSchema()
+recipe_routes = RecipeRoutes(recipe_service, recipe_schema)
+app.register_blueprint(recipe_routes)
 
 # Payment
 db_conn = PaymentModel()
@@ -87,6 +101,7 @@ if __name__ == '__main__':
     try:
         app.run(debug=True)
     finally:
+        db_conn_recipe.close_connection()
         db_conn.close_connection()
         db_conn_medication.close_connection()
         db_conn_medicalappointment.close_connection()

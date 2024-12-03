@@ -633,3 +633,835 @@
 2024-12-02 08:20:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:20:36] "POST /api/v1/patient/query HTTP/1.1" 200 -
 2024-12-02 08:23:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:23:03] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
 2024-12-02 08:23:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:23:04] "POST /api/v1/patient/query HTTP/1.1" 200 -
+=======
+2024-11-30 11:30:54 PM: CRITICAL [doctor_model.py:17] MongoDB environment variables are required
+2024-11-30 11:30:54 PM: ERROR [doctor_service.py:134] An error has occurred: Set environment variables: MONGODB_USER, MONGODB_PASS, MONGO_HOST
+2024-11-30 11:30:54 PM: INFO [doctor_service.py:139] Connection to the database was successfully closed.
+2024-11-30 11:53:38 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-11-30 11:53:38 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-11-30 11:53:38 PM: INFO [doctor_service.py:96] Doctors fetched: [{'_id': ObjectId('674bf420493dd585b8c92109'), 'first_name': 'Albert', 'last_name': 'Einstein', 'license': '1234567890', 'date_of_birth': '1879-03-14', 'phone_number': '+1234567890', 'email': 'albert.einstein@example.com', 'specialties': [{'specialty': 'Physics', 'consultation_fee': 100}, {'specialty': 'Theoretical Physics', 'consultation_fee': 120}]}, {'_id': ObjectId('674bf420493dd585b8c9210a'), 'first_name': 'Marie', 'last_name': 'Curie', 'license': '9876543210', 'date_of_birth': '1867-11-07', 'phone_number': '+0987654321', 'email': 'marie.curie@example.com', 'specialties': [{'specialty': 'Chemistry', 'consultation_fee': 150}, {'specialty': 'Radiology', 'consultation_fee': 180}]}, {'_id': ObjectId('674bf420493dd585b8c9210b'), 'first_name': 'Sigmund', 'last_name': 'Freud', 'license': '1122334455', 'date_of_birth': '1856-05-06', 'phone_number': '+1122334455', 'email': 'sigmund.freud@example.com', 'specialties': [{'specialty': 'Psychiatry', 'consultation_fee': 200}, {'specialty': 'Psychoanalysis', 'consultation_fee': 220}]}]
+2024-11-30 11:53:38 PM: ERROR [doctor_service.py:30] Error creating the new doctor: unsupported operand type(s) for +: 'ObjectId' and 'int'
+2024-11-30 11:53:38 PM: ERROR [doctor_service.py:134] An error has occurred: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2024-11-30 11:53:38 PM: INFO [doctor_service.py:139] Connection to the database was successfully closed.
+2024-11-30 11:56:08 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:96] Doctors fetched: [{'_id': 1, 'first_name': 'Albert', 'last_name': 'Einstein', 'license': '1234567890', 'date_of_birth': '1879-03-14', 'phone_number': '+1234567890', 'email': 'albert.einstein@example.com', 'specialties': [{'specialty': 'Physics', 'consultation_fee': 100}, {'specialty': 'Theoretical Physics', 'consultation_fee': 120}]}, {'_id': 2, 'first_name': 'Marie', 'last_name': 'Curie', 'license': '9876543210', 'date_of_birth': '1867-11-07', 'phone_number': '+0987654321', 'email': 'marie.curie@example.com', 'specialties': [{'specialty': 'Chemistry', 'consultation_fee': 150}, {'specialty': 'Radiology', 'consultation_fee': 180}]}, {'_id': 3, 'first_name': 'Sigmund', 'last_name': 'Freud', 'license': '1122334455', 'date_of_birth': '1856-05-06', 'phone_number': '+1122334455', 'email': 'sigmund.freud@example.com', 'specialties': [{'specialty': 'Psychiatry', 'consultation_fee': 200}, {'specialty': 'Psychoanalysis', 'consultation_fee': 220}]}]
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:27] New doctor created with ID: 4
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:112] New doctor added: {'first_name': 'Albert', 'last_name': 'Einstein', 'license': '1234567890', 'date_of_birth': '1879-03-14', 'phone_number': '+1234567890', 'email': 'cruzaz.einstein@example.com', 'specialties': [{'specialty': 'Physics', 'consultation_fee': 100}, {'specialty': 'Theoretical Physics', 'consultation_fee': 120}], '_id': 4}
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:37] Doctor with ID 1 fetched successfully.
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:116] Doctor fetched by ID: {'_id': 1, 'first_name': 'Albert', 'last_name': 'Einstein', 'license': '1234567890', 'date_of_birth': '1879-03-14', 'phone_number': '+1234567890', 'email': 'albert.einstein@example.com', 'specialties': [{'specialty': 'Physics', 'consultation_fee': 100}, {'specialty': 'Theoretical Physics', 'consultation_fee': 120}]}
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:37] Doctor with ID 1 fetched successfully.
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:52] Doctor with ID 1 updated successfully.
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:127] Doctor updated: UpdateResult({'n': 1, 'nModified': 1, 'ok': 1.0, 'updatedExisting': True}, acknowledged=True)
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:37] Doctor with ID 1 fetched successfully.
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:70] Doctor with ID 1 deleted successfully.
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:131] Doctor deleted: {'_id': 1, 'first_name': 'Albertinnn', 'last_name': 'Einstein', 'license': '1234567890', 'date_of_birth': '1879-03-14', 'phone_number': '+1234567890', 'email': 'albert.einstein@example.com', 'specialties': [{'specialty': 'Physics', 'consultation_fee': 150}, {'specialty': 'Theoretical Physics', 'consultation_fee': 130}]}
+2024-11-30 11:56:08 PM: INFO [doctor_service.py:139] Connection to the database was successfully closed.
+2024-12-01 12:02:33 AM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:95] Doctors fetched: [{'_id': 1, 'name': 'Albert Einstein', 'license': '1234567890', 'date_of_birth': '1879-03-14', 'phone_number': '+1234567890', 'email': 'cruzaz.einstein@example.com', 'specialties': [{'specialty': 'Physics', 'consultation_fee': 100}, {'specialty': 'Theoretical Physics', 'consultation_fee': 120}]}, {'_id': 2, 'name': 'Marie Curie', 'license': '9876543210', 'date_of_birth': '1867-11-07', 'phone_number': '+0987654321', 'email': 'marie.curie@example.com', 'specialties': [{'specialty': 'Chemistry', 'consultation_fee': 150}, {'specialty': 'Radiology', 'consultation_fee': 180}]}, {'_id': 3, 'name': 'Sigmund Freud', 'license': '1122334455', 'date_of_birth': '1856-05-06', 'phone_number': '+1122334455', 'email': 'sigmund.freud@example.com', 'specialties': [{'specialty': 'Psychiatry', 'consultation_fee': 200}, {'specialty': 'Psychoanalysis', 'consultation_fee': 220}]}]
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:27] New doctor created with ID: 4
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:109] New doctor added: {'name': 'Albert Einstein', 'license': '1234567890', 'date_of_birth': '1879-03-14', 'phone_number': '+1234567890', 'email': 'cruzaz.einstein@example.com', 'specialties': [{'specialty': 'Physics', 'consultation_fee': 100}, {'specialty': 'Theoretical Physics', 'consultation_fee': 120}], '_id': 4}
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:37] Doctor with ID 1 fetched successfully.
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:113] Doctor fetched by ID: {'_id': 1, 'name': 'Albert Einstein', 'license': '1234567890', 'date_of_birth': '1879-03-14', 'phone_number': '+1234567890', 'email': 'cruzaz.einstein@example.com', 'specialties': [{'specialty': 'Physics', 'consultation_fee': 100}, {'specialty': 'Theoretical Physics', 'consultation_fee': 120}]}
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:37] Doctor with ID 1 fetched successfully.
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:52] Doctor with ID 1 updated successfully.
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:123] Doctor updated: UpdateResult({'n': 1, 'nModified': 1, 'ok': 1.0, 'updatedExisting': True}, acknowledged=True)
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:37] Doctor with ID 1 fetched successfully.
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:70] Doctor with ID 1 deleted successfully.
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:127] Doctor deleted: {'_id': 1, 'name': 'Albert Einstein Jr.', 'license': '1234567890', 'date_of_birth': '1879-03-14', 'phone_number': '+1234567890', 'email': 'cruzaz.einstein@example.com', 'specialties': [{'specialty': 'Physics', 'consultation_fee': 150}, {'specialty': 'Theoretical Physics', 'consultation_fee': 130}]}
+2024-12-01 12:02:33 AM: INFO [doctor_service.py:135] Connection to the database was successfully closed.
+2024-12-01 04:56:04 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-01 04:56:04 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-01 04:56:04 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-01 04:56:04 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 04:56:04 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-01 04:56:04 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 04:56:04 PM: INFO [_internal.py:97]  * Debugger PIN: 796-400-112
+2024-12-01 04:56:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 16:56:16] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-01 04:56:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 16:56:56] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-01 04:57:11 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 16:57:11] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-01 04:58:18 PM: ERROR [doctor_routes.py:108] Error adding new doctor to the database: '>' not supported between instances of 'str' and 'datetime.date'
+2024-12-01 04:58:18 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 16:58:18] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-01 05:00:16 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/schemas/doctor_schema.py', reloading
+2024-12-01 05:00:17 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 05:00:17 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-01 05:00:17 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 05:00:17 PM: INFO [_internal.py:97]  * Debugger PIN: 796-400-112
+2024-12-01 05:00:23 PM: ERROR [doctor_routes.py:108] Error adding new doctor to the database: name 'specialty' is not defined
+2024-12-01 05:00:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 17:00:23] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-01 05:03:18 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/routes/doctor_routes.py', reloading
+2024-12-01 05:03:18 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 05:04:58 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-01 05:04:58 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-01 05:04:58 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-01 05:04:58 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 05:04:59 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-01 05:04:59 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 05:04:59 PM: INFO [_internal.py:97]  * Debugger PIN: 796-400-112
+2024-12-01 05:05:03 PM: INFO [doctor_service.py:27] New doctor created with ID: 5
+2024-12-01 05:05:03 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'John Doe', 'license': '1234567890', 'date_of_birth': '1980-05-15', 'phone_number': '1234567890', 'email': 'johndoe@example.com', 'specialties': [{'specialty': 'Cardiology', 'consultation_fee': 150, 'services': ['Electrocardiogram (ECG)', 'Stress Test', 'Cardiac Surgery Consultation']}, {'specialty': 'Pediatrics', 'consultation_fee': 120, 'services': ['Vaccinations', 'Growth Monitoring', 'Pediatric Emergency Care']}], '_id': 5}
+2024-12-01 05:05:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 17:05:03] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-01 05:15:03 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 05:15:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 17:15:03] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 05:15:25 PM: INFO [doctor_service.py:37] Doctor with ID 2 fetched successfully.
+2024-12-01 05:15:25 PM: INFO [doctor_service.py:70] Doctor with ID 2 deleted successfully.
+2024-12-01 05:15:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 17:15:25] "DELETE /api/v1/doctors/2 HTTP/1.1" 200 -
+2024-12-01 05:15:30 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 05:15:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 17:15:30] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 08:40:53 PM: CRITICAL [doctor_model.py:17] MongoDB environment variables are required
+2024-12-01 08:41:35 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-01 08:41:35 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-01 08:41:35 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-01 08:41:35 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-01 08:41:36 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-01 08:41:36 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-01 08:41:36 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-01 08:41:48 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:41:48] "[31m[1mGET /api/v1/doctors/4 HTTP/1.1[0m" 405 -
+2024-12-01 08:41:48 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:41:48] "[31m[1mGET /api/v1/doctors/4 HTTP/1.1[0m" 405 -
+2024-12-01 08:43:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:43:55] "[31m[1mGET /api/v1/doctors/4 HTTP/1.1[0m" 405 -
+2024-12-01 08:43:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:43:55] "[31m[1mGET /api/v1/doctors/4 HTTP/1.1[0m" 405 -
+2024-12-01 08:51:29 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 08:51:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:51:29] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 08:51:29 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 08:51:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:51:29] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 08:55:46 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 08:55:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:55:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 08:55:46 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 08:55:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:55:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 08:58:31 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 08:58:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:58:31] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 08:58:31 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 08:58:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 20:58:31] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 09:07:33 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 09:07:33 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:07:33] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 09:07:33 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 09:07:33 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:07:33] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 09:22:34 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 09:22:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:22:34] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 09:22:34 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 09:22:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 21:22:34] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 10:35:41 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 10:35:41 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 22:35:41] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 10:35:41 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 10:35:41 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 22:35:41] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 10:36:37 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 10:36:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 22:36:37] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-01 10:36:37 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-01 10:36:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [01/Dec/2024 22:36:37] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:42:53 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:42:53 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:42:53] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:42:53 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:42:53 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:42:53] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:43:01 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:43:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:43:01] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:43:01 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:43:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:43:01] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:50:36 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:50:36 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:50:36 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:50:36] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:50:36 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:50:36] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:55:32 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:55:32 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:55:32] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:55:34 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:55:34 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:55:34] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:55:41 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:55:41 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:55:41] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:55:43 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:55:43 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:55:43] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:56:39 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:56:39 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:56:39] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:58:35 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:58:35 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:58:35] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:58:36 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:58:36 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:58:36] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:58:41 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:58:41 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:58:41] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:58:46 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 01:58:46 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 01:58:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:00:40 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:00:40 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:00:40] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:05:21 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:05:21 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:05:21 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:05:21] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:05:21 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:05:21] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:08:32 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:08:32] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:08:32 AM: ERROR [doctor_routes.py:130] Error adding new doctor to the database: object of type 'NoneType' has no len()
+2024-12-02 02:08:32 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:08:32] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-02 02:16:24 AM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/schemas/doctor_schema.py', reloading
+2024-12-02 02:16:25 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:16:47 AM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 02:16:47 AM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 02:16:47 AM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 02:16:47 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:16:47 AM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 02:16:47 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:16:47 AM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 02:20:03 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:20:03 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:20:03] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:20:03 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:20:03 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:20:03] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:22:13 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:22:13 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:22:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:22:13 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:22:13 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:22:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:23:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:23:01] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:23:01 AM: ERROR [doctor_routes.py:130] Error adding new doctor to the database: object of type 'NoneType' has no len()
+2024-12-02 02:23:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:23:01] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-02 02:26:09 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:26:09 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:26:09] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:26:09 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:26:09 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:26:09] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:26:55 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:26:55] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:26:55 AM: ERROR [doctor_routes.py:130] Error adding new doctor to the database: object of type 'NoneType' has no len()
+2024-12-02 02:26:55 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:26:55] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-02 02:27:54 AM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/schemas/doctor_schema.py', reloading
+2024-12-02 02:27:54 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:28:24 AM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 02:28:24 AM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 02:28:24 AM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 02:28:24 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:28:24 AM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 02:28:24 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:28:24 AM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 02:28:37 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:28:37] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:28:37 AM: ERROR [doctor_routes.py:130] Error adding new doctor to the database: object of type 'NoneType' has no len()
+2024-12-02 02:28:37 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:28:37] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-02 02:31:10 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:31:10] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:31:10 AM: ERROR [doctor_routes.py:130] Error adding new doctor to the database: object of type 'NoneType' has no len()
+2024-12-02 02:31:10 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:31:10] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-02 02:32:07 AM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/schemas/doctor_schema.py', reloading
+2024-12-02 02:32:07 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:32:08 AM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 02:32:08 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:32:08 AM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 02:32:14 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:32:14] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:32:14 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:32:14] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-02 02:32:58 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:32:58] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:32:58 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:32:58] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-02 02:34:28 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:34:28] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:34:28 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:34:28] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-02 02:35:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:35:01] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:35:01 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 02:35:01] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-02 11:12:47 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 11:12:47 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:12:47] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:12:47 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 11:12:47 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:12:47] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:14:46 AM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/schemas/doctor_schema.py', reloading
+2024-12-02 11:14:46 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 11:14:47 AM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 11:14:47 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 11:14:47 AM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 11:19:47 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:19:47] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:19:47 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:19:47] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-02 11:28:57 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 11:28:57 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:28:57] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:28:57 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 11:28:57 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:28:57] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:32:20 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:32:20] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:32:21 AM: ERROR [doctor_routes.py:130] Error adding new doctor to the database: '<=' not supported between instances of 'str' and 'int'
+2024-12-02 11:32:21 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:32:21] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-02 11:46:53 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 11:46:53 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:46:53] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:46:53 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 11:46:53 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:46:53] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:46:57 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 11:46:57 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:46:57] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:46:57 AM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 11:46:57 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:46:57] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:47:49 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:47:49] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 11:47:49 AM: INFO [doctor_service.py:27] New doctor created with ID: 5
+2024-12-02 11:47:49 AM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'asafgasdgh hiashihi', 'license': '1234567890', 'date_of_birth': '2002-12-12', 'phone_number': '1234567890', 'email': 'asdhuauhas@gmail.com', 'specialties': [{'specialty': 'Psychiatry', 'consultationFee': '11111111', 'services': ['sagugudsa'], 'consultation_fee': 11111111}], '_id': 5}
+2024-12-02 11:47:49 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 11:47:49] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 12:15:12 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 12:15:12 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 12:15:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:15:12] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 12:15:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:15:12] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 12:16:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:16:04] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 12:16:04 PM: INFO [doctor_service.py:27] New doctor created with ID: 6
+2024-12-02 12:16:04 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'afsgsa asdgah', 'license': '1234567890', 'date_of_birth': '2002-12-12', 'phone_number': '1234567890', 'email': 'armi@gmail.com', 'specialties': [{'specialty': 'Ophthalmology', 'consultation_fee': 11111111, 'services': ['asdvhgas']}], '_id': 6}
+2024-12-02 12:16:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 12:16:04] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 01:12:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:12:30] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 01:12:30 PM: INFO [doctor_service.py:27] New doctor created with ID: 7
+2024-12-02 01:12:30 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'aaaaaaaaaaaa ddddddddd', 'license': '1234567890', 'date_of_birth': '2002-12-12', 'phone_number': '1234567890', 'email': 'arrstsrt@gmail.com', 'specialties': [{'specialty': 'Traumatology', 'consultation_fee': 9999999, 'services': ['nnnn', 'gugj']}], '_id': 7}
+2024-12-02 01:12:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:12:30] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 02:17:53 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:17:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:53] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:17:53 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:17:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:53] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:19:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:19:28] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:19:28 PM: INFO [doctor_service.py:27] New doctor created with ID: 8
+2024-12-02 02:19:28 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'asdhgvvgs dsanjas', 'license': '1234567890', 'date_of_birth': '2002-12-12', 'phone_number': '1234567890', 'email': 'saadvggh@gmail.com', 'specialties': [{'specialty': 'Psychology', 'consultation_fee': 777777, 'services': ['hola']}], '_id': 8}
+2024-12-02 02:19:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:19:28] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 02:32:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:32:06] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 02:32:55 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:32:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:32:55] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:32:55 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:32:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:32:55] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:33:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:33:42] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:33:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:33:42] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-02 02:33:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:33:59] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:33:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:33:59] "[31m[1mPOST /api/v1/doctors HTTP/1.1[0m" 400 -
+2024-12-02 02:34:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:34:13] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:34:13 PM: INFO [doctor_service.py:27] New doctor created with ID: 4
+2024-12-02 02:34:13 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'holaa sjsdah', 'license': '1234567890', 'date_of_birth': '2002-12-12', 'phone_number': '1234567890', 'email': 'sadaus@gmail.com', 'specialties': [{'specialty': 'Traumatology', 'consultation_fee': 12223, 'services': ['hashid']}], '_id': 4}
+2024-12-02 02:34:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:34:13] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 02:34:40 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:34:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:34:40] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:34:40 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:34:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:34:40] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:34:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:34:45] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 02:35:33 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:35:33] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 02:37:35 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:37:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:37:35] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:37:35 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:37:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:37:35] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:37:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:37:45] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 02:37:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:37:50] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 02:48:29 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:48:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:48:29] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:48:29 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:48:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:48:29] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:50:25 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:50:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:50:25] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 02:50:25 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 02:50:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:50:25] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:13:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:13:04] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:13:04 PM: INFO [doctor_service.py:27] New doctor created with ID: 5
+2024-12-02 03:13:04 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'dansnkjdan pepepeee', 'license': '1234567890', 'date_of_birth': '2002-12-12', 'phone_number': '1234567890', 'email': 'armi@gmail.com', 'specialties': [{'specialty': 'Endocrinology', 'consultation_fee': 999999999999, 'services': ['dsajbdas']}], '_id': 5}
+2024-12-02 03:13:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:13:04] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 03:13:13 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:13:13 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:13:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:13:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:13:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:13:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:13:40 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/schemas/doctor_schema.py', reloading
+2024-12-02 03:13:41 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:13:41 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 03:13:41 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:13:41 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 03:14:32 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:14:32] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:14:32 PM: INFO [doctor_service.py:27] New doctor created with ID: 6
+2024-12-02 03:14:32 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'sahgghjsa jjjjjjjjjjjjjjjjjjj', 'license': '1234567890', 'date_of_birth': '', 'phone_number': '1234567890', 'email': 'ssadbhj@gmail.com', 'specialties': [{'specialty': 'Psychiatry', 'consultation_fee': 77777777777, 'services': ['popoopopo']}], '_id': 6}
+2024-12-02 03:14:32 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:14:32] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 03:17:43 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/schemas/doctor_schema.py', reloading
+2024-12-02 03:17:43 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:17:43 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 03:17:43 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:17:43 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 03:18:24 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:18:24] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:18:24 PM: ERROR [doctor_routes.py:130] Error adding new doctor to the database: '>' not supported between instances of 'str' and 'datetime.date'
+2024-12-02 03:18:24 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:18:24] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-02 03:19:16 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/schemas/doctor_schema.py', reloading
+2024-12-02 03:19:17 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:19:52 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 03:19:52 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 03:19:52 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 03:19:52 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:19:53 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 03:19:53 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:19:53 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 03:19:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:19:58] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:19:58 PM: ERROR [doctor_routes.py:130] Error adding new doctor to the database: '>' not supported between instances of 'str' and 'datetime.date'
+2024-12-02 03:19:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:19:58] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 500 -
+2024-12-02 03:21:55 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/schemas/doctor_schema.py', reloading
+2024-12-02 03:21:55 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:22:56 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 03:22:56 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 03:22:56 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 03:22:56 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:22:57 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 03:22:57 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:22:57 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 03:23:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:23:01] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:23:01 PM: INFO [doctor_service.py:27] New doctor created with ID: 7
+2024-12-02 03:23:01 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'asjhbjbhsa kilian', 'license': '0123456789', 'date_of_birth': '2002-12-12', 'phone_number': '1234567890', 'email': 'sdabhadjbh@gmai.com', 'specialties': [{'specialty': 'Orthopedics', 'consultation_fee': 8888888888888, 'services': ['njanxnj']}], '_id': 7}
+2024-12-02 03:23:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:23:01] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 03:23:13 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:23:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:23:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:23:13 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:23:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:23:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:27:36 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/routes/doctor_routes.py', reloading
+2024-12-02 03:27:36 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:27:54 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 03:27:54 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 03:27:54 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 03:27:54 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:27:55 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 03:27:55 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:27:55 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 03:29:49 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:29:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:29:49] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:30:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:30:28] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:30:28 PM: INFO [doctor_service.py:27] New doctor created with ID: 8
+2024-12-02 03:30:28 PM: INFO [doctor_routes.py:128] New Doctor Created: {'name': 'hhhhhhhh hhhhhhhhhhh', 'license': '1234567890', 'date_of_birth': '2002-12-12', 'phone_number': '1234567890', 'email': 'armnd@gmail.com', 'specialties': [{'specialty': 'Endocrinology', 'consultation_fee': 6666666666, 'services': ['aaaaaaaaaaaabbbbb']}], 'img': ' ', '_id': 8}
+2024-12-02 03:30:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:30:28] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 03:30:32 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:30:32 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:30:32] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:33:35 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:33:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:33:35] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:43:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:43:44] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 03:43:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:43:49] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 03:50:14 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:50:14 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:50:14] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:50:14 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:50:14 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:50:14] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:50:16 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:50:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:50:16] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:50:16 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:50:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:50:16] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:51:40 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:51:40 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:51:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:51:40] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:51:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:51:40] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:51:41 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:51:41 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:51:41] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:51:41 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:51:41 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:51:41] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:52:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:52:46] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 03:52:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:52:47] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 03:53:09 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:53:09] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 03:53:11 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:53:11] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 03:53:11 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:53:11] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 03:53:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:53:12] "[33mOPTIONS /api/v1/doctors/undefined HTTP/1.1[0m" 404 -
+2024-12-02 03:54:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:54:10] "OPTIONS /api/v1/doctors/8 HTTP/1.1" 200 -
+2024-12-02 03:54:10 PM: INFO [doctor_service.py:37] Doctor with ID 8 fetched successfully.
+2024-12-02 03:54:10 PM: INFO [doctor_service.py:70] Doctor with ID 8 deleted successfully.
+2024-12-02 03:54:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:54:10] "DELETE /api/v1/doctors/8 HTTP/1.1" 200 -
+2024-12-02 03:54:12 PM: WARNING [doctor_service.py:39] Doctor with ID 8 not found.
+2024-12-02 03:54:12 PM: WARNING [doctor_service.py:73] Doctor with ID 8 not found for deletion.
+2024-12-02 03:54:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:54:12] "[33mDELETE /api/v1/doctors/8 HTTP/1.1[0m" 404 -
+2024-12-02 03:54:27 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:54:27 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:54:27] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:54:27 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:54:27 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:54:27] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:57:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:57:06] "OPTIONS /api/v1/doctors/7 HTTP/1.1" 200 -
+2024-12-02 03:57:06 PM: INFO [doctor_service.py:37] Doctor with ID 7 fetched successfully.
+2024-12-02 03:57:06 PM: INFO [doctor_service.py:70] Doctor with ID 7 deleted successfully.
+2024-12-02 03:57:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:57:06] "DELETE /api/v1/doctors/7 HTTP/1.1" 200 -
+2024-12-02 03:57:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:57:36] "OPTIONS /api/v1/doctors/7 HTTP/1.1" 200 -
+2024-12-02 03:57:36 PM: WARNING [doctor_service.py:39] Doctor with ID 7 not found.
+2024-12-02 03:57:36 PM: WARNING [doctor_service.py:73] Doctor with ID 7 not found for deletion.
+2024-12-02 03:57:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:57:36] "[33mDELETE /api/v1/doctors/7 HTTP/1.1[0m" 404 -
+2024-12-02 03:57:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:57:55] "OPTIONS /api/v1/doctors/7 HTTP/1.1" 200 -
+2024-12-02 03:57:55 PM: WARNING [doctor_service.py:39] Doctor with ID 7 not found.
+2024-12-02 03:57:55 PM: WARNING [doctor_service.py:73] Doctor with ID 7 not found for deletion.
+2024-12-02 03:57:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:57:55] "[33mDELETE /api/v1/doctors/7 HTTP/1.1[0m" 404 -
+2024-12-02 03:58:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:58:05] "OPTIONS /api/v1/doctors/7 HTTP/1.1" 200 -
+2024-12-02 03:58:05 PM: WARNING [doctor_service.py:39] Doctor with ID 7 not found.
+2024-12-02 03:58:05 PM: WARNING [doctor_service.py:73] Doctor with ID 7 not found for deletion.
+2024-12-02 03:58:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:58:05] "[33mDELETE /api/v1/doctors/7 HTTP/1.1[0m" 404 -
+2024-12-02 03:58:08 PM: WARNING [doctor_service.py:39] Doctor with ID 7 not found.
+2024-12-02 03:58:08 PM: WARNING [doctor_service.py:73] Doctor with ID 7 not found for deletion.
+2024-12-02 03:58:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:58:08] "[33mDELETE /api/v1/doctors/7 HTTP/1.1[0m" 404 -
+2024-12-02 03:59:57 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:59:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:59:57] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 03:59:57 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 03:59:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:59:57] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:00:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:00:01] "OPTIONS /api/v1/doctors/6 HTTP/1.1" 200 -
+2024-12-02 04:00:01 PM: INFO [doctor_service.py:37] Doctor with ID 6 fetched successfully.
+2024-12-02 04:00:01 PM: INFO [doctor_service.py:70] Doctor with ID 6 deleted successfully.
+2024-12-02 04:00:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:00:01] "DELETE /api/v1/doctors/6 HTTP/1.1" 200 -
+2024-12-02 04:00:41 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:00:41 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:00:41] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:00:41 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:00:41 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:00:41] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:00:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:00:43] "OPTIONS /api/v1/doctors/5 HTTP/1.1" 200 -
+2024-12-02 04:00:43 PM: INFO [doctor_service.py:37] Doctor with ID 5 fetched successfully.
+2024-12-02 04:00:43 PM: INFO [doctor_service.py:70] Doctor with ID 5 deleted successfully.
+2024-12-02 04:00:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:00:43] "DELETE /api/v1/doctors/5 HTTP/1.1" 200 -
+2024-12-02 04:01:35 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:01:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:01:35] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:01:35 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:01:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:01:35] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:01:38 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:01:38] "OPTIONS /api/v1/doctors/4 HTTP/1.1" 200 -
+2024-12-02 04:01:38 PM: INFO [doctor_service.py:37] Doctor with ID 4 fetched successfully.
+2024-12-02 04:01:38 PM: INFO [doctor_service.py:70] Doctor with ID 4 deleted successfully.
+2024-12-02 04:01:38 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:01:38] "DELETE /api/v1/doctors/4 HTTP/1.1" 200 -
+2024-12-02 04:01:38 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:01:38 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:01:38] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:08:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:08:51] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:08:51 PM: INFO [doctor_service.py:27] New doctor created with ID: 4
+2024-12-02 04:08:51 PM: INFO [doctor_routes.py:128] New Doctor Created: {'name': 'hhhhhhhhh hhhhhhhhhhh', 'license': '1111111111', 'date_of_birth': '2002-12-12', 'phone_number': '1111111111', 'email': 'agsah@gmail.com', 'specialties': [{'specialty': 'Urology', 'consultation_fee': 444444444444, 'services': ['aaaaaaaa']}], 'img': ' ', '_id': 4}
+2024-12-02 04:08:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:08:51] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 04:08:55 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:08:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:08:55] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:08:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:08:59] "OPTIONS /api/v1/doctors/4 HTTP/1.1" 200 -
+2024-12-02 04:08:59 PM: INFO [doctor_service.py:37] Doctor with ID 4 fetched successfully.
+2024-12-02 04:08:59 PM: INFO [doctor_service.py:70] Doctor with ID 4 deleted successfully.
+2024-12-02 04:08:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:08:59] "DELETE /api/v1/doctors/4 HTTP/1.1" 200 -
+2024-12-02 04:08:59 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:08:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:08:59] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:09:46 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:09:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:09:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:09:46 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:09:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:09:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:11:24 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:11:24] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:11:24 PM: INFO [doctor_service.py:27] New doctor created with ID: 4
+2024-12-02 04:11:24 PM: INFO [doctor_routes.py:128] New Doctor Created: {'name': 'hhhhhhhhh jjjjjj', 'license': '1234567890', 'date_of_birth': '1111-11-11', 'phone_number': '1234567890', 'email': 'sadh@gmail.com', 'specialties': [{'specialty': 'Traumatology', 'consultation_fee': 66666666666, 'services': ['hdsahjbdksa']}], 'img': ' ', '_id': 4}
+2024-12-02 04:11:24 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:11:24] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 04:11:57 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:11:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:11:57] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:12:19 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:12:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:12:19] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:12:19 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:12:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:12:19] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:14:34 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:14:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:14:34] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:14:34 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:14:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:14:34] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:16:40 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:16:40 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:16:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:16:40] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:16:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:16:40] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:16:48 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:16:48] "OPTIONS /api/v1/doctors/4 HTTP/1.1" 200 -
+2024-12-02 04:16:48 PM: INFO [doctor_service.py:37] Doctor with ID 4 fetched successfully.
+2024-12-02 04:16:48 PM: INFO [doctor_service.py:70] Doctor with ID 4 deleted successfully.
+2024-12-02 04:16:48 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:16:48] "DELETE /api/v1/doctors/4 HTTP/1.1" 200 -
+2024-12-02 04:16:48 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:16:48 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:16:48] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:20:46 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:20:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:20:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:20:46 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:20:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:20:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:20:55 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:20:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:20:55] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:20:55 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:20:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:20:55] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:25:11 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:25:11] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:25:11 PM: INFO [doctor_service.py:27] New doctor created with ID: 4
+2024-12-02 04:25:11 PM: INFO [doctor_routes.py:128] New Doctor Created: {'name': 'gsdaas dsajdjjjjjjjjjjjjjjjjjj', 'license': '1234567890', 'date_of_birth': '1111-12-12', 'phone_number': '1234567890', 'email': 'assdjkn@gmail.com', 'specialties': [{'specialty': 'General Medicine', 'consultation_fee': 77777777777, 'services': ['vscbjh']}], 'img': ' ', '_id': 4}
+2024-12-02 04:25:11 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:25:11] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 04:25:26 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:25:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:25:26] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:28:11 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:28:11 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:11] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:28:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:13] "OPTIONS /api/v1/doctors/4 HTTP/1.1" 200 -
+2024-12-02 04:28:13 PM: INFO [doctor_service.py:37] Doctor with ID 4 fetched successfully.
+2024-12-02 04:28:13 PM: INFO [doctor_service.py:70] Doctor with ID 4 deleted successfully.
+2024-12-02 04:28:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:13] "DELETE /api/v1/doctors/4 HTTP/1.1" 200 -
+2024-12-02 04:28:13 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:28:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:28:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:58] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:28:58 PM: INFO [doctor_service.py:27] New doctor created with ID: 4
+2024-12-02 04:28:58 PM: INFO [doctor_routes.py:128] New Doctor Created: {'name': 'asdbjh sadbjkbjkas', 'license': '1234567890', 'date_of_birth': '1111-11-11', 'phone_number': '1234567890', 'email': 'sabhj@gmail.com', 'specialties': [{'specialty': 'Urology', 'consultation_fee': 6666666666666, 'services': ['duhbhcdvsj']}], 'img': ' ', '_id': 4}
+2024-12-02 04:28:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:58] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 04:29:02 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:29:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:29:02] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:38:02 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:38:02 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:38:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:38:02] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:38:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:38:02] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:38:09 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:38:09 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:38:09 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:38:09] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:38:09 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:38:09] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:38:10 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:38:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:38:10] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:38:10 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:38:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:38:10] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:41:08 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:41:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:41:08] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:41:08 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:41:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:41:08] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:44:21 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:44:21 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:44:21] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:44:21 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:44:21 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:44:21] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:49:23 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:49:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:49:23] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:53:46 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:53:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:53:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:53:46 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:53:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:53:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 04:53:51 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 04:53:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:53:51] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:04:31 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:04:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:04:31] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:04:31 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:04:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:04:31] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:04:57 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:04:57 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:04:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:04:57] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:04:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:04:57] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:05:00 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:05:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:05:00] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:05:56 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:05:56 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:05:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:05:56] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:05:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:05:56] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:06:03 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:06:03 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:06:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:06:03] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:06:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:06:03] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:10:39 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:10:39 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:10:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:10:39] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:10:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:10:39] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:15:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:15:51] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:15:51 PM: INFO [doctor_service.py:27] New doctor created with ID: 5
+2024-12-02 05:15:51 PM: INFO [doctor_routes.py:128] New Doctor Created: {'name': 'cru zzzzzzzzzzzzzzzzzzzzzzzz', 'license': '1234567890', 'date_of_birth': '1111-12-12', 'phone_number': '1234567890', 'email': 'arag@gmail.com', 'specialties': [{'specialty': 'Psychiatry', 'consultation_fee': 22222222222222, 'services': ['vjhjvhvvhj']}], 'img': ' ', '_id': 5}
+2024-12-02 05:15:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:15:51] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 05:20:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:20:25] "[33mGET /api/v1/doctors/ HTTP/1.1[0m" 404 -
+2024-12-02 05:20:32 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:20:32 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:20:32] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:21:20 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/routes/doctor_routes.py', reloading
+2024-12-02 05:21:20 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 05:21:21 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 05:21:21 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 05:21:21 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 05:22:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:22:05] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:22:05 PM: INFO [doctor_service.py:27] New doctor created with ID: 6
+2024-12-02 05:22:05 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'aaaaaaaaaaaaaaaaaaaa bbbbbbbb', 'license': '1234567890', 'date_of_birth': '1111-11-11', 'phone_number': '1234567890', 'email': 'ashjd@gmail.com', 'specialties': [{'specialty': 'Urology', 'consultation_fee': 55555555555555, 'services': ['dsvchj']}], '_id': 6}
+2024-12-02 05:22:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:22:05] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 05:29:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:29:01] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:29:01 PM: INFO [doctor_service.py:27] New doctor created with ID: 7
+2024-12-02 05:29:01 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'bbbbbbbbbb bbbbbbbbbnnnnnnnn', 'license': '1234567890', 'date_of_birth': '1111-11-11', 'phone_number': '1234567890', 'email': 'agsvd@gmail.com', 'specialties': [{'specialty': 'Endocrinology', 'consultation_fee': 333333333333, 'services': ['da']}], '_id': 7}
+2024-12-02 05:29:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:29:01] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 05:34:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:34:00] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:34:00 PM: INFO [doctor_service.py:27] New doctor created with ID: 8
+2024-12-02 05:34:00 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'vvvvvvvv vvvvvvvvvvv', 'license': '1234567890', 'date_of_birth': '1111-11-11', 'phone_number': '1234567890', 'email': 'asdfgh@gmail.com', 'specialties': [{'specialty': 'Oncology', 'consultation_fee': 12345678, 'services': ['sdfghjk']}], '_id': 8}
+2024-12-02 05:34:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:34:00] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 05:44:56 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:44:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:44:56] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:44:58 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:44:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:44:58] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:53:27 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:53:27 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:53:27] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:53:27 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:53:27 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:53:27] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:57:45 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:57:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:57:45] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 05:57:45 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 05:57:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:57:45] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:06:13 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:06:13 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:06:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:06:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:06:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:06:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:13:37 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:13:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:13:37] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:13:37 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:13:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:13:37] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:14:37 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:14:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:14:37] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:14:37 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:14:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:14:37] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:15:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:15:51] "OPTIONS /api/v1/doctors/1 HTTP/1.1" 200 -
+2024-12-02 06:15:51 PM: INFO [doctor_service.py:37] Doctor with ID 1 fetched successfully.
+2024-12-02 06:15:51 PM: INFO [doctor_service.py:70] Doctor with ID 1 deleted successfully.
+2024-12-02 06:15:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:15:51] "DELETE /api/v1/doctors/1 HTTP/1.1" 200 -
+2024-12-02 06:15:51 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:15:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:15:51] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:16:44 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 06:16:44 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 06:16:44 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 06:16:44 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:16:45 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 06:16:45 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:16:45 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 06:27:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:27:44] "OPTIONS /api/v1/doctors/3 HTTP/1.1" 200 -
+2024-12-02 06:27:44 PM: ERROR [doctor_routes.py:199] Error updating the doctor in the database: 'DoctorSchema' object has no attribute 'validate_specialty'
+2024-12-02 06:27:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:27:44] "[35m[1mPUT /api/v1/doctors/3 HTTP/1.1[0m" 500 -
+2024-12-02 06:30:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:30:55] "OPTIONS /api/v1/doctors/3 HTTP/1.1" 200 -
+2024-12-02 06:30:55 PM: ERROR [doctor_routes.py:199] Error updating the doctor in the database: 'DoctorSchema' object has no attribute 'validate_specialty'
+2024-12-02 06:30:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:30:55] "[35m[1mPUT /api/v1/doctors/3 HTTP/1.1[0m" 500 -
+2024-12-02 06:32:19 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:32:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:32:19] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:32:19 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:32:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:32:19] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:32:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:32:43] "OPTIONS /api/v1/doctors/2 HTTP/1.1" 200 -
+2024-12-02 06:32:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:32:43] "[31m[1mPUT /api/v1/doctors/2 HTTP/1.1[0m" 400 -
+2024-12-02 06:33:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:33:36] "OPTIONS /api/v1/doctors/2 HTTP/1.1" 200 -
+2024-12-02 06:33:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:33:36] "[31m[1mPUT /api/v1/doctors/2 HTTP/1.1[0m" 400 -
+2024-12-02 06:35:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:35:31] "OPTIONS /api/v1/doctors/4 HTTP/1.1" 200 -
+2024-12-02 06:35:31 PM: ERROR [doctor_routes.py:199] Error updating the doctor in the database: 'DoctorSchema' object has no attribute 'validate_specialty'
+2024-12-02 06:35:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:35:31] "[35m[1mPUT /api/v1/doctors/4 HTTP/1.1[0m" 500 -
+2024-12-02 06:45:32 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 06:45:32 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:45:32] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 06:45:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:45:44] "OPTIONS /api/v1/doctors/5 HTTP/1.1" 200 -
+2024-12-02 06:45:44 PM: ERROR [doctor_routes.py:199] Error updating the doctor in the database: 'DoctorSchema' object has no attribute 'validate_specialty'
+2024-12-02 06:45:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:45:44] "[35m[1mPUT /api/v1/doctors/5 HTTP/1.1[0m" 500 -
+2024-12-02 06:46:20 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 06:46:20 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 06:46:20 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 06:46:20 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:46:20 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 06:46:20 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:46:20 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 06:46:24 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:46:24] "OPTIONS /api/v1/doctors/5 HTTP/1.1" 200 -
+2024-12-02 06:46:24 PM: ERROR [doctor_routes.py:199] Error updating the doctor in the database: 'DoctorSchema' object has no attribute 'validate_specialty'
+2024-12-02 06:46:24 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:46:24] "[35m[1mPUT /api/v1/doctors/5 HTTP/1.1[0m" 500 -
+2024-12-02 06:49:38 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/routes/doctor_routes.py', reloading
+2024-12-02 06:49:38 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:49:38 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 06:49:38 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:49:38 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 06:49:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:49:51] "OPTIONS /api/v1/doctors/5 HTTP/1.1" 200 -
+2024-12-02 06:49:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:49:51] "[31m[1mPUT /api/v1/doctors/5 HTTP/1.1[0m" 400 -
+2024-12-02 06:50:05 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 06:50:05 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 06:50:05 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 06:50:05 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:50:05 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 06:50:05 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:50:05 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 06:50:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:50:10] "OPTIONS /api/v1/doctors/5 HTTP/1.1" 200 -
+2024-12-02 06:50:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:50:10] "[31m[1mPUT /api/v1/doctors/5 HTTP/1.1[0m" 400 -
+2024-12-02 06:51:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:51:59] "OPTIONS /api/v1/doctors/3 HTTP/1.1" 200 -
+2024-12-02 06:51:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:51:59] "[31m[1mPUT /api/v1/doctors/3 HTTP/1.1[0m" 400 -
+2024-12-02 06:52:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:52:29] "OPTIONS /api/v1/doctors/3 HTTP/1.1" 200 -
+2024-12-02 06:52:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:52:29] "[31m[1mPUT /api/v1/doctors/3 HTTP/1.1[0m" 400 -
+2024-12-02 06:55:17 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/routes/doctor_routes.py', reloading
+2024-12-02 06:55:18 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:56:50 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 06:56:51 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 06:56:51 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 06:56:51 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:56:51 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 06:56:51 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:56:51 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 06:56:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:56:57] "OPTIONS /api/v1/doctors/3 HTTP/1.1" 200 -
+2024-12-02 06:56:57 PM: INFO [doctor_service.py:37] Doctor with ID 3 fetched successfully.
+2024-12-02 06:56:57 PM: INFO [doctor_service.py:52] Doctor with ID 3 updated successfully.
+2024-12-02 06:56:57 PM: ERROR [doctor_routes.py:189] Error updating the doctor in the database: Object of type UpdateResult is not JSON serializable
+2024-12-02 06:56:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:56:57] "[35m[1mPUT /api/v1/doctors/3 HTTP/1.1[0m" 500 -
+2024-12-02 07:00:02 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/routes/doctor_routes.py', reloading
+2024-12-02 07:00:02 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:00:31 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 07:00:31 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 07:00:31 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 07:00:31 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:00:31 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 07:00:31 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 07:00:31 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 07:00:48 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:00:48] "OPTIONS /api/v1/doctors/3 HTTP/1.1" 200 -
+2024-12-02 07:00:48 PM: INFO [doctor_service.py:37] Doctor with ID 3 fetched successfully.
+2024-12-02 07:00:48 PM: INFO [doctor_service.py:52] Doctor with ID 3 updated successfully.
+2024-12-02 07:00:48 PM: ERROR [doctor_routes.py:192] Error updating the doctor in the database: Object of type UpdateResult is not JSON serializable
+2024-12-02 07:00:48 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:00:48] "[35m[1mPUT /api/v1/doctors/3 HTTP/1.1[0m" 500 -
+2024-12-02 07:05:42 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:05:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:05:42] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:05:42 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:05:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:05:42] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:05:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:05:58] "OPTIONS /api/v1/doctors/8 HTTP/1.1" 200 -
+2024-12-02 07:05:58 PM: INFO [doctor_service.py:37] Doctor with ID 8 fetched successfully.
+2024-12-02 07:05:58 PM: INFO [doctor_service.py:52] Doctor with ID 8 updated successfully.
+2024-12-02 07:05:58 PM: ERROR [doctor_routes.py:192] Error updating the doctor in the database: Object of type UpdateResult is not JSON serializable
+2024-12-02 07:05:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:05:58] "[35m[1mPUT /api/v1/doctors/8 HTTP/1.1[0m" 500 -
+2024-12-02 07:07:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:07:10] "OPTIONS /api/v1/doctors/8 HTTP/1.1" 200 -
+2024-12-02 07:07:10 PM: INFO [doctor_service.py:37] Doctor with ID 8 fetched successfully.
+2024-12-02 07:07:10 PM: INFO [doctor_service.py:52] Doctor with ID 8 updated successfully.
+2024-12-02 07:07:10 PM: ERROR [doctor_routes.py:192] Error updating the doctor in the database: Object of type UpdateResult is not JSON serializable
+2024-12-02 07:07:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:07:10] "[35m[1mPUT /api/v1/doctors/8 HTTP/1.1[0m" 500 -
+2024-12-02 07:08:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:08:07] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:08:07 PM: INFO [doctor_service.py:27] New doctor created with ID: 9
+2024-12-02 07:08:07 PM: INFO [doctor_routes.py:109] New Doctor Created: {'name': 'pepepe pepepe', 'license': '7777777777', 'phone_number': '7777777777', 'email': 'dsacfgvh@gmail.com', '_id': 9}
+2024-12-02 07:08:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:08:07] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 07:08:13 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:08:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:08:13] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:11:56 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:11:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:11:56] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:11:56 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:11:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:11:56] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:13:02 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:13:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:13:02] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:13:02 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:13:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:13:02] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:14:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:14:06] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:14:06 PM: INFO [doctor_service.py:27] New doctor created with ID: 10
+2024-12-02 07:14:06 PM: INFO [doctor_routes.py:109] New Doctor Created: {'name': 'ccccccccc cccccccc', 'license': '1234567890', 'phone_number': '1234567890', 'email': 'dsajdbsa@gmail.com', '_id': 10}
+2024-12-02 07:14:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:14:06] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 07:14:08 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:14:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:14:08] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:17:19 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:17:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:17:19] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:17:19 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:17:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:17:19] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:18:09 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:18:09 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:09] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:18:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:47] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:18:47 PM: INFO [doctor_service.py:27] New doctor created with ID: 11
+2024-12-02 07:18:47 PM: INFO [doctor_routes.py:109] New Doctor Created: {'name': 'dsbjjsddsa sadsd', 'license': '1234567890', 'phone_number': '1234567890', 'email': 'sdaub@gmail.com', '_id': 11}
+2024-12-02 07:18:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:47] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 07:18:50 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:18:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:50] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:18:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:58] "OPTIONS /api/v1/doctors/11 HTTP/1.1" 200 -
+2024-12-02 07:18:58 PM: INFO [doctor_service.py:37] Doctor with ID 11 fetched successfully.
+2024-12-02 07:18:58 PM: INFO [doctor_service.py:70] Doctor with ID 11 deleted successfully.
+2024-12-02 07:18:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:58] "DELETE /api/v1/doctors/11 HTTP/1.1" 200 -
+2024-12-02 07:18:58 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:18:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:58] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:19:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:19:00] "OPTIONS /api/v1/doctors/10 HTTP/1.1" 200 -
+2024-12-02 07:19:00 PM: INFO [doctor_service.py:37] Doctor with ID 10 fetched successfully.
+2024-12-02 07:19:00 PM: INFO [doctor_service.py:70] Doctor with ID 10 deleted successfully.
+2024-12-02 07:19:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:19:00] "DELETE /api/v1/doctors/10 HTTP/1.1" 200 -
+2024-12-02 07:19:00 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:19:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:19:00] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:19:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:19:01] "OPTIONS /api/v1/doctors/9 HTTP/1.1" 200 -
+2024-12-02 07:19:01 PM: INFO [doctor_service.py:37] Doctor with ID 9 fetched successfully.
+2024-12-02 07:19:01 PM: INFO [doctor_service.py:70] Doctor with ID 9 deleted successfully.
+2024-12-02 07:19:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:19:01] "DELETE /api/v1/doctors/9 HTTP/1.1" 200 -
+2024-12-02 07:19:01 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:19:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:19:01] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:20:48 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/routes/doctor_routes.py', reloading
+2024-12-02 07:20:49 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:20:49 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 07:20:49 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 07:20:49 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 07:21:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:21:23] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:21:23 PM: INFO [doctor_service.py:27] New doctor created with ID: 9
+2024-12-02 07:21:23 PM: INFO [doctor_routes.py:110] New Doctor Created: {'name': 'dakdbka skadsak ', 'license': '1234567890', 'phone_number': '1234567890', 'email': 'dasjbhhdsa@gmail.com', '_id': 9}
+2024-12-02 07:21:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:21:23] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 07:21:25 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:21:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:21:25] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:22:26 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/routes/doctor_routes.py', reloading
+2024-12-02 07:22:27 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:22:27 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 07:22:27 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 07:22:27 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 07:23:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:23:07] "OPTIONS /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:23:07 PM: INFO [doctor_service.py:27] New doctor created with ID: 10
+2024-12-02 07:23:07 PM: INFO [doctor_routes.py:127] New Doctor Created: {'name': 'dbjfkdsj dksknf', 'license': '1234567890', 'date_of_birth': '1111-11-11', 'phone_number': '1234567890', 'email': 'sdadsabu@gmail.com', 'specialties': [{'specialty': 'Urology', 'consultation_fee': 555555, 'services': ['dbhuwc']}], '_id': 10}
+2024-12-02 07:23:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:23:07] "[35m[1mPOST /api/v1/doctors HTTP/1.1[0m" 201 -
+2024-12-02 07:23:12 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:23:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:23:12] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:24:29 PM: INFO [_internal.py:97]  * Detected change in '/home/armando/ProyFinDist/HealthVault-Back/routes/doctor_routes.py', reloading
+2024-12-02 07:24:29 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:24:29 PM: INFO [doctor_model.py:32] Connected to MongoDb database successfully
+2024-12-02 07:24:29 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 07:24:29 PM: INFO [_internal.py:97]  * Debugger PIN: 121-957-672
+2024-12-02 07:24:38 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:24:38 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:24:38] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:24:38 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:24:38 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:24:38] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:24:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:24:46] "OPTIONS /api/v1/doctors/9 HTTP/1.1" 200 -
+2024-12-02 07:24:46 PM: INFO [doctor_service.py:37] Doctor with ID 9 fetched successfully.
+2024-12-02 07:24:46 PM: INFO [doctor_service.py:70] Doctor with ID 9 deleted successfully.
+2024-12-02 07:24:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:24:46] "DELETE /api/v1/doctors/9 HTTP/1.1" 200 -
+2024-12-02 07:24:46 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:24:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:24:46] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:25:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:25:01] "OPTIONS /api/v1/doctors/6 HTTP/1.1" 200 -
+2024-12-02 07:25:01 PM: INFO [doctor_service.py:37] Doctor with ID 6 fetched successfully.
+2024-12-02 07:25:01 PM: INFO [doctor_service.py:52] Doctor with ID 6 updated successfully.
+2024-12-02 07:25:01 PM: ERROR [doctor_routes.py:210] Error updating the doctor in the database: Object of type UpdateResult is not JSON serializable
+2024-12-02 07:25:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:25:01] "[35m[1mPUT /api/v1/doctors/6 HTTP/1.1[0m" 500 -
+2024-12-02 07:25:08 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:25:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:25:08] "GET /api/v1/doctors HTTP/1.1" 200 -
+2024-12-02 07:25:08 PM: INFO [doctor_service.py:12] Successfully fetched all doctors from the database.
+2024-12-02 07:25:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:25:08] "GET /api/v1/doctors HTTP/1.1" 200 -

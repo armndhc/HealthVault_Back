@@ -1,3 +1,639 @@
+2024-12-02 12:22:54 AM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 12:22:54 AM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 12:22:54 AM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 12:22:54 AM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 12:22:54 AM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 12:22:54 AM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 12:22:54 AM: INFO [_internal.py:97]  * Debugger PIN: 123-782-203
+2024-12-02 12:26:00 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:26:00] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 12:27:33 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:27:33] "OPTIONS /api/v1/patient/10 HTTP/1.1" 200 -
+2024-12-02 12:27:33 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:27:33] "DELETE /api/v1/patient/10 HTTP/1.1" 200 -
+2024-12-02 12:27:52 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:27:52] "OPTIONS /api/v1/patient/9 HTTP/1.1" 200 -
+2024-12-02 12:27:52 AM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 00:27:52] "DELETE /api/v1/patient/9 HTTP/1.1" 200 -
+2024-12-02 01:43:16 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 01:43:16 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 01:43:16 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 01:43:16 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 01:43:16 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 01:43:16 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 01:43:16 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 01:45:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:45:37] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 01:47:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:47:43] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 01:50:38 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 13:50:38] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:08:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:08:50] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:09:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:09:08] "OPTIONS /api/v1/patient/8 HTTP/1.1" 200 -
+2024-12-02 02:09:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:09:08] "[31m[1mPUT /api/v1/patient/8 HTTP/1.1[0m" 400 -
+2024-12-02 02:10:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:10:55] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:11:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:07] "OPTIONS /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 02:11:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:07] "[31m[1mPUT /api/v1/patient/2 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:26] "OPTIONS /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 02:11:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:26] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:34] "OPTIONS /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 02:11:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:34] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:35] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:36] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:36] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:36] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:36] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:36] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:36] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:37] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:37] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:11:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:11:37] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:12:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:12:36] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2024-12-02 02:12:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:12:36] "GET /apidocs/ HTTP/1.1" 200 -
+2024-12-02 02:12:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:12:36] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-12-02 02:12:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:12:36] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-12-02 02:12:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:12:36] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2024-12-02 02:12:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:12:36] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2024-12-02 02:12:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:12:36] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2024-12-02 02:12:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:12:36] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-12-02 02:15:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:15:45] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:15:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:15:50] "GET /apidocs/ HTTP/1.1" 200 -
+2024-12-02 02:15:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:15:50] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2024-12-02 02:15:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:15:50] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-12-02 02:15:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:15:50] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2024-12-02 02:15:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:15:50] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-12-02 02:15:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:15:51] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-12-02 02:17:04 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/schemas/patient_schema.py', reloading
+2024-12-02 02:17:04 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:17:04 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:17:05 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:17:05 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:17:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:29] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:17:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:45] "GET /apidocs/ HTTP/1.1" 200 -
+2024-12-02 02:17:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:45] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-12-02 02:17:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:45] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-12-02 02:17:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:45] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-12-02 02:17:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:45] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-12-02 02:17:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:45] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2024-12-02 02:17:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:17:45] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-12-02 02:18:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:18:13] "[31m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 400 -
+2024-12-02 02:19:03 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/schemas/patient_schema.py', reloading
+2024-12-02 02:19:03 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:19:04 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:19:04 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:19:04 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:19:09 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/schemas/patient_schema.py', reloading
+2024-12-02 02:19:09 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:19:10 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:19:10 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:19:10 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:19:13 PM: ERROR [patient_routes.py:317] Error updating patient: 'PatientSchema' object has no attribute 'validate_allergies'
+2024-12-02 02:19:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:19:13] "[35m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 500 -
+2024-12-02 02:21:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:37] "GET /apidocs/ HTTP/1.1" 200 -
+2024-12-02 02:21:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:37] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-12-02 02:21:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:37] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-12-02 02:21:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:37] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-12-02 02:21:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:37] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-12-02 02:21:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:21:37] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-12-02 02:22:05 PM: ERROR [patient_routes.py:317] Error updating patient: 'PatientSchema' object has no attribute 'validate_allergies'
+2024-12-02 02:22:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:22:05] "[35m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 500 -
+2024-12-02 02:23:04 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 02:23:04 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:23:05 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:23:05 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:23:05 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:23:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:34] "GET /apidocs/ HTTP/1.1" 200 -
+2024-12-02 02:23:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:34] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-12-02 02:23:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:34] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-12-02 02:23:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:34] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-12-02 02:23:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:34] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-12-02 02:23:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:34] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-12-02 02:23:58 PM: ERROR [patient_routes.py:316] Error updating patient: 'PatientSchema' object has no attribute 'validate_allergies'
+2024-12-02 02:23:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:23:58] "[35m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 500 -
+2024-12-02 02:24:26 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 02:24:27 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:24:27 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:24:27 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:24:27 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:24:30 PM: ERROR [patient_routes.py:315] Error updating patient: 'PatientSchema' object has no attribute 'validate_familyHistory'
+2024-12-02 02:24:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:24:30] "[35m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 500 -
+2024-12-02 02:26:44 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 02:26:44 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:26:45 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:26:45 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:26:45 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:26:48 PM: ERROR [patient_routes.py:310] Error updating patient: 'PatientSchema' object has no attribute 'validate_avatar'
+2024-12-02 02:26:48 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:26:48] "[35m[1mPUT /api/v1/patient/1 HTTP/1.1[0m" 500 -
+2024-12-02 02:27:11 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 02:27:11 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:27:12 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:27:12 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:27:12 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:27:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:27:13] "PUT /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 02:29:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:29:29] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:29:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:29:49] "OPTIONS /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 02:29:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:29:49] "PUT /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 02:30:09 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:30:09] "OPTIONS /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 02:30:09 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:30:09] "PUT /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 02:30:21 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:30:21] "OPTIONS /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 02:30:21 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:30:21] "PUT /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 02:30:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:30:37] "OPTIONS /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 02:30:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:30:37] "PUT /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 02:41:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:41:57] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:43:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:43:31] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:43:31 PM: ERROR [patient_routes.py:181] Error adding new patient: '<=' not supported between instances of 'str' and 'int'
+2024-12-02 02:43:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:43:31] "[35m[1mPOST /api/v1/patient HTTP/1.1[0m" 500 -
+2024-12-02 02:47:01 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/schemas/patient_schema.py', reloading
+2024-12-02 02:47:01 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:47:02 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:47:02 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:47:02 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:47:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:47:07] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:47:07 PM: ERROR [patient_routes.py:181] Error adding new patient: '>' not supported between instances of 'str' and 'int'
+2024-12-02 02:47:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:47:07] "[35m[1mPOST /api/v1/patient HTTP/1.1[0m" 500 -
+2024-12-02 02:47:52 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/schemas/patient_schema.py', reloading
+2024-12-02 02:47:52 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:47:53 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:47:53 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:47:53 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:47:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:47:57] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:47:57 PM: ERROR [patient_routes.py:181] Error adding new patient: invalid literal for int() with base 10: '1.70'
+2024-12-02 02:47:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:47:57] "[35m[1mPOST /api/v1/patient HTTP/1.1[0m" 500 -
+2024-12-02 02:49:15 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/schemas/patient_schema.py', reloading
+2024-12-02 02:49:16 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:49:16 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:49:16 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:49:16 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:49:20 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:49:20] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:49:20 PM: ERROR [patient_routes.py:181] Error adding new patient: '<' not supported between instances of 'str' and 'int'
+2024-12-02 02:49:20 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:49:20] "[35m[1mPOST /api/v1/patient HTTP/1.1[0m" 500 -
+2024-12-02 02:50:29 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/schemas/patient_schema.py', reloading
+2024-12-02 02:50:29 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 02:50:30 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 02:50:30 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 02:50:30 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 02:50:32 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:50:32] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:50:32 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:50:32] "[31m[1mPOST /api/v1/patient HTTP/1.1[0m" 400 -
+2024-12-02 02:50:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:50:58] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:50:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:50:58] "[31m[1mPOST /api/v1/patient HTTP/1.1[0m" 400 -
+2024-12-02 02:51:22 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:51:22] "GET /apidocs/ HTTP/1.1" 200 -
+2024-12-02 02:51:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:51:23] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-12-02 02:51:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:51:23] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-12-02 02:51:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:51:23] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2024-12-02 02:51:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:51:23] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2024-12-02 02:51:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:51:23] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2024-12-02 02:51:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:51:23] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-12-02 02:52:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:52:37] "[35m[1mPOST /api/v1/patient HTTP/1.1[0m" 201 -
+2024-12-02 02:53:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:53:42] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:53:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:53:42] "[31m[1mPOST /api/v1/patient HTTP/1.1[0m" 400 -
+2024-12-02 02:56:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:56:10] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:56:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:56:10] "[31m[1mPOST /api/v1/patient HTTP/1.1[0m" 400 -
+2024-12-02 02:56:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:56:35] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:58:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:58:05] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 02:58:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 14:58:05] "[31m[1mPOST /api/v1/patient HTTP/1.1[0m" 400 -
+2024-12-02 03:08:27 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 03:08:27 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:08:28 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 03:08:28 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:08:28 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 03:09:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:09:35] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 03:09:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:09:35] "[31m[1mPOST /api/v1/patient HTTP/1.1[0m" 400 -
+2024-12-02 03:10:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:10:06] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 03:11:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:11:39] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 03:11:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:11:39] "[31m[1mPOST /api/v1/patient HTTP/1.1[0m" 400 -
+2024-12-02 03:16:35 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 03:16:35 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:16:37 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 03:16:37 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:16:37 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 03:23:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:23:31] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 03:25:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:25:53] "OPTIONS /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 03:25:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:25:53] "[35m[1mPOST /api/v1/patient HTTP/1.1[0m" 201 -
+2024-12-02 03:27:12 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 03:27:13 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:27:16 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 03:27:16 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:27:16 PM: INFO [_internal.py:97]  * Debugger PIN: 939-729-366
+2024-12-02 03:28:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:28:28] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 03:32:35 PM: CRITICAL [patient_model.py:18] MongoDB environment variables are required nut mis
+2024-12-02 03:33:10 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 03:33:10 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 03:33:10 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 03:33:10 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:33:10 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 03:33:10 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:33:10 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 03:44:09 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:44:09] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 03:44:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:44:23] "[31m[1mGET /api/v1/patient/1 HTTP/1.1[0m" 405 -
+2024-12-02 03:44:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:44:23] "[31m[1mGET /api/v1/patient/1 HTTP/1.1[0m" 405 -
+2024-12-02 03:49:39 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 03:49:39 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 03:49:41 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 03:49:41 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 03:49:41 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 03:49:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:49:56] "[31m[1mGET /api/v1/patient/1 HTTP/1.1[0m" 405 -
+2024-12-02 03:50:27 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:50:27] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 03:50:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:50:35] "[31m[1mGET /api/v1/patient/1 HTTP/1.1[0m" 405 -
+2024-12-02 03:50:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 15:50:35] "[31m[1mGET /api/v1/patient/1 HTTP/1.1[0m" 405 -
+2024-12-02 04:02:24 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:02:24 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 04:02:24 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 04:02:24 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 04:02:24 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:02:24 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 04:02:24 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 04:02:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:02:49] "GET /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 04:02:49 PM: ERROR [patient_routes.py:474] Error fetching completed appointments: 'PatientRoutes' object has no attribute 'appointment_service'
+2024-12-02 04:02:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:02:49] "[35m[1mGET /api/v1/medicalappointments/1 HTTP/1.1[0m" 500 -
+2024-12-02 04:04:47 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 04:04:48 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 04:04:49 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:04:49 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 04:04:49 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 04:04:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:04:54] "GET /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 04:04:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:04:54] "[33mGET /api/v1/medicalappointments/1 HTTP/1.1[0m" 404 -
+2024-12-02 04:07:36 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/patient_service.py', reloading
+2024-12-02 04:07:37 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 04:07:39 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:07:39 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 04:07:39 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 04:07:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:07:43] "GET /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 04:07:43 PM: ERROR [patient_service.py:106] Error fetching completed appointments: name 'ObjectId' is not defined
+2024-12-02 04:07:43 PM: ERROR [patient_routes.py:474] Error fetching completed appointments: Error fetching completed appointments: name 'ObjectId' is not defined
+2024-12-02 04:07:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:07:43] "[35m[1mGET /api/v1/medicalappointments/1 HTTP/1.1[0m" 500 -
+2024-12-02 04:17:40 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:17:40 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 04:17:40 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 04:17:40 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 04:17:40 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:17:40 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 04:17:40 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 04:18:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:18:01] "GET /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 04:18:01 PM: ERROR [patient_service.py:106] Error fetching completed appointments: name 'ObjectId' is not defined
+2024-12-02 04:18:01 PM: ERROR [patient_routes.py:474] Error fetching completed appointments: Error fetching completed appointments: name 'ObjectId' is not defined
+2024-12-02 04:18:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:18:01] "[35m[1mGET /api/v1/medicalappointments/1 HTTP/1.1[0m" 500 -
+2024-12-02 04:19:16 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/patient_service.py', reloading
+2024-12-02 04:19:16 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 04:19:56 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:19:56 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 04:19:56 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 04:19:56 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 04:19:57 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:19:57 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 04:19:57 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 04:20:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:20:04] "GET /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 04:20:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:20:04] "GET /api/v1/medicalappointments/1 HTTP/1.1" 200 -
+2024-12-02 04:28:07 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:28:07 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 04:28:07 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 04:28:07 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 04:28:07 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:28:07 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 04:28:07 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 04:28:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:25] "GET /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 04:28:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:26] "GET /api/v1/medicalappointments/1 HTTP/1.1" 200 -
+2024-12-02 04:28:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:42] "GET /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 04:28:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:28:42] "[33mGET /api/v1/medicalappointments/2 HTTP/1.1[0m" 404 -
+2024-12-02 04:29:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:29:12] "GET /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 04:29:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:29:12] "GET /api/v1/medicalappointments/1 HTTP/1.1" 200 -
+2024-12-02 04:29:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:29:46] "GET /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 04:29:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:29:46] "GET /api/v1/medicalappointments/1 HTTP/1.1" 200 -
+2024-12-02 04:29:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:29:54] "GET /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 04:29:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:29:55] "[33mGET /api/v1/medicalappointments/2 HTTP/1.1[0m" 404 -
+2024-12-02 04:30:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:30:07] "GET /api/v1/patient/1 HTTP/1.1" 200 -
+2024-12-02 04:30:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:30:07] "GET /api/v1/medicalappointments/1 HTTP/1.1" 200 -
+2024-12-02 04:31:09 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:31:09 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 04:31:09 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 04:31:09 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 04:31:09 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:31:09 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 04:31:09 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 04:31:18 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:31:18] "GET /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 04:31:18 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:31:18] "[33mGET /api/v1/medicalappointments/2 HTTP/1.1[0m" 404 -
+2024-12-02 04:34:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:34:43] "GET /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 04:34:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:34:44] "[33mGET /api/v1/medicalappointments/2 HTTP/1.1[0m" 404 -
+2024-12-02 04:35:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:35:19] "GET /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 04:35:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:35:19] "[33mGET /api/v1/medicalappointments/2 HTTP/1.1[0m" 404 -
+2024-12-02 04:35:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:35:39] "GET /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 04:35:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:35:39] "[33mGET /api/v1/medicalappointments/2 HTTP/1.1[0m" 404 -
+2024-12-02 04:39:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:39:13] "GET /api/v1/patient/2 HTTP/1.1" 200 -
+2024-12-02 04:39:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:39:13] "[33mGET /api/v1/medicalappointments/2 HTTP/1.1[0m" 404 -
+2024-12-02 04:41:38 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:41:38 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 04:41:38 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 04:41:38 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 04:41:38 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 04:41:38 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 04:41:38 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 04:42:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:42:10] "GET /api/v1/patient HTTP/1.1" 200 -
+2024-12-02 04:45:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:45:31] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 04:45:31 PM: ERROR [patient_service.py:72] Error querying patients: 'PatientService' object has no attribute 'nlp_service'
+2024-12-02 04:45:31 PM: ERROR [patient_routes.py:432] Error querying patients with NLP: Object of type Response is not JSON serializable
+2024-12-02 04:45:31 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 16:45:31] "[35m[1mPOST /api/v1/patient/query HTTP/1.1[0m" 500 -
+2024-12-02 05:05:53 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:06:51 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:08:40 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:08:41 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 05:08:41 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 05:08:41 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 05:08:42 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:08:43 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 05:08:43 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 05:09:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:09:13] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:09:13 PM: ERROR [patient_service.py:71] Error querying patients: 'PatientService' object has no attribute 'nlp_service'
+2024-12-02 05:09:13 PM: ERROR [patient_routes.py:432] Error querying patients with NLP: Object of type Response is not JSON serializable
+2024-12-02 05:09:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:09:13] "[35m[1mPOST /api/v1/patient/query HTTP/1.1[0m" 500 -
+2024-12-02 05:17:19 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:17:19 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 05:17:19 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 05:17:19 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 05:17:21 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:17:21 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 05:17:21 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 05:17:52 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:17:52] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:17:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:17:53] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:17:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:17:56] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:17:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:17:57] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:17:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:17:57] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:19:06 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 05:19:08 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 05:19:11 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:19:13 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 05:19:13 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 05:19:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:19:13] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:19:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:19:13] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:27:13 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:27:14 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 05:27:14 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 05:27:14 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 05:27:15 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:27:16 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 05:27:16 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 05:27:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:27:51] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:27:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:27:51] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:43:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:43:19] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:43:20 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:43:20] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:46:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:46:35] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:46:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:46:36] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:16] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:17 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:17] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:33 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:33] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:33 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:33] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:47] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:47] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:49] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:49] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:50] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:51] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:49:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:49:51] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:50:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:50:03] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:50:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:50:03] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:50:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:50:12] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:50:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:50:13] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:55:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:55:56] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:55:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:55:57] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:59:08 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 05:59:10 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 05:59:12 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 05:59:13 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 05:59:13 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 05:59:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:59:42] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 05:59:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 17:59:43] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:00:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:00:04] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:00:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:00:04] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:00:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:00:26] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:00:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:00:26] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:02:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:02:44] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:02:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:02:45] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:04:23 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/routes/patient_routes.py', reloading
+2024-12-02 06:04:26 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:04:28 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:04:29 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:04:29 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 06:04:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:04:56] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:04:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:04:56] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:05:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:05:34] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:05:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:05:34] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:06:11 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:06:11] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:06:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:06:13] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:06:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:06:37] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:06:38 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:06:38] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:06:52 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:06:52] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:06:52 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:06:52] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:12:33 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 06:12:34 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:14:14 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:14:15 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 06:14:15 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 06:14:15 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:14:16 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:14:17 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:14:17 PM: INFO [_internal.py:97]  * Debugger PIN: 674-108-291
+2024-12-02 06:14:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:14:30] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:14:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:14:30] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:14:34 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:14:34] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:18:56 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:18:56 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 06:18:56 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 06:18:56 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:18:58 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:19:00 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:19:00 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:19:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:19:13] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:19:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:19:13] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:21:40 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 06:21:41 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:21:44 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:21:45 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:21:45 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:23:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:23:19] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:23:20 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:23:20] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:29:34 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:29:34 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 06:29:34 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 06:29:34 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:29:35 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:29:36 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:29:36 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:30:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:30:01] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:30:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:30:02] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:30:24 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 06:30:25 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:30:27 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:30:29 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:30:29 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:30:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:30:40] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:30:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:30:40] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:31:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:31:30] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:31:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:31:30] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:32:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:32:30] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:32:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:32:30] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:34:46 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:34:46] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:34:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:34:47] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:37:31 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/app.py', reloading
+2024-12-02 06:37:32 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:37:34 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:37:34 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:37:34 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:39:57 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/patient_service.py', reloading
+2024-12-02 06:39:59 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:40:00 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:40:01 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:40:01 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:42:07 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 06:42:09 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:42:11 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:42:12 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:42:12 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:42:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:42:30] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:42:30 PM: INFO [patient_service.py:73] No valid query filters generated from user query: name is John"
+2024-12-02 06:42:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:42:30] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:45:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:45:36] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:45:37 PM: INFO [patient_service.py:73] No valid query filters generated from user query: Who has a blood type equal to O+
+2024-12-02 06:45:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:45:37] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:48:47 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/patient_service.py', reloading
+2024-12-02 06:48:48 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:48:50 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:48:51 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:48:51 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:48:54 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 06:48:54 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:48:55 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:48:56 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:48:56 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:49:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:49:12] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:49:13 PM: INFO [patient_service.py:71] No valid query filters generated from user query: weight above 80
+2024-12-02 06:49:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:49:13] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:51:43 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 06:51:44 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 06:51:46 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 06:51:46 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 06:51:46 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 06:52:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:52:02] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:52:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:52:02] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:52:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:52:19] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 06:52:20 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 18:52:20] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:01:52 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 07:01:52 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 07:01:52 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-02 07:01:52 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:01:54 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 07:01:55 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 07:01:55 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 07:02:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:02:03] "GET /apidocs/ HTTP/1.1" 200 -
+2024-12-02 07:02:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:02:03] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-12-02 07:02:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:02:04] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-12-02 07:02:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:02:04] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-12-02 07:02:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:02:04] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-12-02 07:02:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:02:04] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2024-12-02 07:02:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:02:04] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-12-02 07:02:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:02:54] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:04:16 PM: INFO [patient_service.py:71] No valid query filters generated from user query: Who has a blood type equal to O+
+2024-12-02 07:04:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:04:16] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:04:32 PM: INFO [patient_service.py:71] No valid query filters generated from user query: blood type equal to O+
+2024-12-02 07:04:32 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:04:32] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:05:08 PM: INFO [patient_service.py:71] No valid query filters generated from user query: name John
+2024-12-02 07:05:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:05:08] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:09:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:09:56] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:09:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:09:56] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:12:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:12:25] "GET /apidocs/ HTTP/1.1" 200 -
+2024-12-02 07:12:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:12:25] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-12-02 07:12:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:12:25] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-12-02 07:12:25 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:12:25] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-12-02 07:12:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:12:26] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-12-02 07:12:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:12:26] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2024-12-02 07:12:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:12:26] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-12-02 07:12:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:12:54] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:14:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:14:06] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:14:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:14:07] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:16:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:16:58] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:16:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:16:59] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:18:55 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:55] "GET /apidocs/ HTTP/1.1" 200 -
+2024-12-02 07:18:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:56] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-12-02 07:18:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:56] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-12-02 07:18:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:56] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-12-02 07:18:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:56] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-12-02 07:18:56 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:18:56] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-12-02 07:19:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:19:10] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:21:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:21:43] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:21:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:21:44] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:21:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:21:54] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:21:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:21:54] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:26:18 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:26:18] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:26:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:26:19] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:28:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:28:51] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:28:52 PM: INFO [patient_service.py:71] No valid query filters generated from user query: weight less than 70
+2024-12-02 07:28:52 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:28:52] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:31:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:31:23] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:31:23 PM: INFO [patient_service.py:71] No valid query filters generated from user query: blood type 0+
+2024-12-02 07:31:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:31:23] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:37:19 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 07:37:20 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:37:23 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 07:37:24 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 07:37:24 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 07:37:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:37:30] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:37:30 PM: INFO [patient_service.py:71] No valid query filters generated from user query: blood type 0+
+2024-12-02 07:37:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:37:30] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:37:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:37:58] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:37:58 PM: INFO [patient_service.py:71] No valid query filters generated from user query: blood type O+
+2024-12-02 07:37:58 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:37:58] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:38:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:38:26] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:38:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:38:26] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:38:44 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:38:44] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:38:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:38:45] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:40:05 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:40:05] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:40:06 PM: INFO [patient_service.py:71] No valid query filters generated from user query: Who has a blood type equal to O+
+2024-12-02 07:40:06 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:40:06] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:44:19 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 07:44:20 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:44:22 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 07:44:22 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 07:44:22 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 07:44:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:44:39] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:44:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:44:40] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:44:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:44:45] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:44:45 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:44:45] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:44:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:44:54] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:44:54 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:44:54] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:53:29 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 07:53:30 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:53:33 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 07:53:34 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 07:53:34 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 07:53:38 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:53:38] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:53:39 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:53:39] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:54:34 PM: INFO [_internal.py:97]  * Detected change in '/home/isra12w/healthvalue/HealthVault_Back/services/nlp_service.py', reloading
+2024-12-02 07:54:36 PM: INFO [_internal.py:97]  * Restarting with stat
+2024-12-02 07:54:39 PM: INFO [patient_model.py:32] Connected to MongoDB database succesfully
+2024-12-02 07:54:41 PM: WARNING [_internal.py:97]  * Debugger is active!
+2024-12-02 07:54:41 PM: INFO [_internal.py:97]  * Debugger PIN: 135-404-753
+2024-12-02 07:55:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:55:47] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 07:55:48 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 19:55:48] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:05:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:05:00] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:05:00 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:05:00] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:10:20 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:10:20] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:10:21 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:10:21] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:10:27 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:10:27] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:10:28 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:10:28] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:12:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:12:37] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:12:38 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:12:38] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:18:41 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:18:41] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:18:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:18:43] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:20:35 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:20:35] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:20:36 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:20:36] "POST /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:23:03 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:23:03] "OPTIONS /api/v1/patient/query HTTP/1.1" 200 -
+2024-12-02 08:23:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [02/Dec/2024 20:23:04] "POST /api/v1/patient/query HTTP/1.1" 200 -
+=======
 2024-11-30 11:30:54 PM: CRITICAL [doctor_model.py:17] MongoDB environment variables are required
 2024-11-30 11:30:54 PM: ERROR [doctor_service.py:134] An error has occurred: Set environment variables: MONGODB_USER, MONGODB_PASS, MONGO_HOST
 2024-11-30 11:30:54 PM: INFO [doctor_service.py:139] Connection to the database was successfully closed.
